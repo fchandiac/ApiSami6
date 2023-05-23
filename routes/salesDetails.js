@@ -1,15 +1,24 @@
 const express = require('express')
 const router = express.Router()
-const sales_detail = require('../server/controllers/sales_details')
+const sales_detail = require('../database/controllers/salesDetails')
 
 
-router.post('/sales_detail/create', (req, res) => {
-    sales_detail.create(req.body.sale_id, req.body.price_id, req.body.product_id, req.body.category_id, req.body.quanty, req.body.subtotal).then(data => {
+router.post('/salesDetails/create', (req, res) => {
+    sales_detail.create(req.body.sale_id, req.body.product_id, req.body.quanty, req.body.sale,  req.body.discount, req.body.subtotal).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
     })
 })
+
+router.post('/salesDetails/findAllBySale', (req, res) => {
+    sales_detail.findAllBySale(req.body.sale_id).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
 
 router.get('/sales_details/find_all', (req, res) => {
     sales_detail.find_all().then(data => {

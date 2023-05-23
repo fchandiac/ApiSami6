@@ -7,12 +7,11 @@ module.exports = (sequelize, DataTypes) => {
   };
   SalesDetails.init({
     sale_id : DataTypes.INTEGER,
-    price_id : DataTypes.INTEGER,
     product_id: DataTypes.INTEGER,
-    category_id: DataTypes.INTEGER,
     quanty: DataTypes.FLOAT,
+    sale: DataTypes.INTEGER,
+    discount: DataTypes.INTEGER,
     subtotal: DataTypes.INTEGER,
-    
   }, {
     sequelize,
     modelName: 'salesdetails',

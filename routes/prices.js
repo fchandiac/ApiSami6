@@ -19,7 +19,7 @@ router.get('/prices/findAll', (req, res) => {
 })
 
 router.post('/prices/findById', (req, res) => {
-    prices.finById (req.body.price_id).then(data => {
+    prices.finById(req.body.price_id).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)

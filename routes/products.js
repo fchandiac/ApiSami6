@@ -4,7 +4,7 @@ const router = express.Router()
 
 
 router.post('/products/create', (req, res) => {
-    products.create(req.body.name, req.body.code, req.body.category_id, req.body.price_id).then(data => {
+    products.create(req.body.name, req.body.code, req.body.sale, req.body.purchase, req.body.category_id, req.body.tax_id).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)

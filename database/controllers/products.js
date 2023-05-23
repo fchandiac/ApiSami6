@@ -1,25 +1,27 @@
-const { Products, Categories, Taxes, Prices, Storages, Stocks} = require("../db");
+const { Products, Categories, Taxes, Storages, Stocks} = require("../db");
 const products = {}
 const sequelize = require('sequelize');
 const storages = require("../models/storages");
 
-async function create(name, code, category_id, price_id){
+async function create(name, code, sale, purchase,  category_id, tax_id ){
     const product = await Products.create({
         name: name,
         code: code,
         category_id: category_id,
-        price_id: price_id
+        tax_id: tax_id,
+        sale: sale,
+        purchase: purchase
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
         
     return product
  
 }
-// {include: [{model: Categories}, {model: Taxes}]}
+
 
 async function findAll(){
     const products =  await Products.findAll(
         {
-            include: [{model: Categories}, {model: Prices, include:[{model: Taxes}]}, {model: Stocks, include:[{model:Storages}]} ],
+            include: [{model: Categories}, {model: Stocks, include:[{model:Storages}]} ],
             order: [[sequelize.literal('name'), 'asc']]
         }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return products 
@@ -33,7 +35,7 @@ async function destroy(id){
 async function findOneByName(name){
     const product = await Products.findOne({
         where: {name:name},
-        include: [{model: Categories}, {model: Prices}]}
+        include: [{model: Categories}, {model: Taxes}]}
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return product
 }
@@ -41,7 +43,7 @@ async function findOneByName(name){
 async function findOneByCode(code){
     const product = await Products.findAll({
         where: {code:code},
-        include: [{model: Categories}, {model: Prices}, {model: Stocks, include:[{model:Storages}]}]}
+        include: [{model: Categories}, {model: Stocks, include:[{model:Storages}]}]}
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return product
 }
@@ -49,7 +51,7 @@ async function findOneByCode(code){
 async function find_all_by_code(code){
     const product = await Products.findAll({
         where: {code:code},
-        include: [{model: Categories}, {model: Prices}]}
+        include: [{model: Categories}]}
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return product
 }
@@ -57,7 +59,7 @@ async function find_all_by_code(code){
 async function findOneById(id){
     const product = await Products.findOne({
         where: {id:id},
-        include: [{model: Categories}, {model: Prices}, {model: Stocks, include:[{model:Storages}]}]}
+        include: [{model: Categories}, {model: Stocks, include:[{model:Storages}]}]}
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return product
 }
@@ -105,7 +107,7 @@ return product
 async function find_all_favorites(){
     const product = await Products.findAll({
         include: [{model: Categories}, 
-            {model: Prices}],
+            {model: Taxes}],
         where: {favorite: true}
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return product

@@ -8,14 +8,15 @@ const sequelize = require('sequelize')
 
 
 
-async function create(sale_id, price_id, product_id, category_id, quanty, subtotal){
+async function create(sale_id, product_id, quanty, sale,  discount, subtotal){
     const sale_detail = await SalesDetails.create({
         sale_id: sale_id, 
-        price_id: price_id,
         product_id: product_id,
-        category_id: category_id, 
         quanty: quanty,
+        sale: sale,
+        discount: discount,
         subtotal: subtotal
+        
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
 
     return sale_detail
@@ -25,6 +26,17 @@ async function find_all(){
     const sale_detail = await SalesDetails.findAll({
         // attributes: ['Product.category_id'],
         include: {model:Products, include:[Categories]}
+    }).then(data => { return {'code': 1, 'data':data}}).catch(err => {
+        console.log(err)
+        return {'code': 0, 'data':err}})
+    return sale_detail
+}
+
+async function findAllBySale(sale_id){
+    const sale_detail = await SalesDetails.findAll({
+        // attributes: ['Product.category_id'],
+        include: {model:Products, include:[Categories]},
+        where: {sale_id: sale_id}
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {
         console.log(err)
         return {'code': 0, 'data':err}})
@@ -162,6 +174,7 @@ sales_details.find_all_by_date_range_and_category = find_all_by_date_range_and_c
 sales_details.find_all_by_date_range = find_all_by_date_range
 sales_details.find_total_by_date_range = find_total_by_date_range
 sales_details.find_total_by_date_range_and_category = find_total_by_date_range_and_category
+sales_details.findAllBySale = findAllBySale
 
 module.exports = sales_details
 

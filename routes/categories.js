@@ -27,4 +27,12 @@ router.post('/categories/update', (req, res) => {
     })
 })
 
+router.post('/categories/destroy', (req, res) => {
+    categories.destroy(req.body.id).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
 module.exports = router

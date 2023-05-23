@@ -8,9 +8,11 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     code: DataTypes.STRING,
     category_id : DataTypes.INTEGER,
-    price_id : DataTypes.INTEGER,
+    tax_id : DataTypes.INTEGER,
     favorite: DataTypes.BOOLEAN,
     stock_control: DataTypes.BOOLEAN,
+    sale: DataTypes.INTEGER,
+    purchase: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Products',

@@ -7,7 +7,7 @@
     "start": "node main.js"
   },
   "author": "Felipe Chandía Castillo - Karmika SpA",
-  "license": "ISC",
+  "license": "Proprietary",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",

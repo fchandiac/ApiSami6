@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const sales = require('../server/controllers/sales')
+const sales = require('../database/controllers/sales')
 
 router.post('/sales/create', (req, res) => {
     sales.create(req.body.amount, req.body.payment_method, req.body.dte_code, req.body.dte_number).then(data => {
