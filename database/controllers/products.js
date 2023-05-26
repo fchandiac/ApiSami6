@@ -64,12 +64,15 @@ async function findOneById(id){
     return product
 }
 
-async function updateFull(id, name, code, category_id, price_id){
+async function updateFull(id, name, code, category_id, tax_id, sale, purchase){
     const product = await Products.update({
             name: name,
             code: code,
             category_id: category_id,
-            price_id: price_id
+            tax_id: tax_id,
+            sale: sale,
+            purchase: purchase
+          
         }, {where: {id:id}}).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return product
 }

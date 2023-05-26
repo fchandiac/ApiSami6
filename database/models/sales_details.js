@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     sale: DataTypes.INTEGER,
     discount: DataTypes.INTEGER,
     subtotal: DataTypes.INTEGER,
+    name: DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'salesdetails',

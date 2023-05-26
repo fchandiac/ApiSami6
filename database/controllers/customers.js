@@ -1,12 +1,12 @@
 const { Customers } = require("../db");
 const customers = {}
 
-async function create(rut, name, activity, distric, city, address) {
+async function create(rut, name, activity, district, city, address) {
     const customer = await Customers.create({
         rut: rut,
         name: name,
         activity: activity,
-        distric: distric,
+        district: district,
         city: city,
         address: address
     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
@@ -21,9 +21,9 @@ async function findAll() {
 
 }
 
-async function update(id, rut, name, distric, city, address) {
+async function update(id, rut, name, activity, district, city, address) {
     const customer = await Customers.update(
-        { rut: rut, name: name, distric: distric, city: city, address: address },
+        { rut: rut, name: name, activity: activity, district: district, city: city, address: address },
         { where: { id: id } }
     ).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return customer
@@ -35,10 +35,15 @@ async function destroy(id) {
     ).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return customer
 }
+async function findOneByRut(rut) {
+    const customer = await Customers.findOne({ where: { rut: rut } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return customer
+}
 
 customers.create = create
 customers.findAll = findAll
 customers.update = update
 customers.destroy = destroy
+customers.findOneByRut = findOneByRut
 
 module.exports = customers

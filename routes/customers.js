@@ -7,7 +7,7 @@ router.post('/customers/create', (req, res) => {
         req.body.rut,
         req.body.name,
         req.body.activity,
-        req.body.distric,
+        req.body.district,
         req.body.city,
         req.body.address
     ).then(data => {
@@ -26,7 +26,15 @@ router.get('/customers/findAll', (req, res) => {
 })
 
 router.post('/customers/update', (req, res) => {
-    customers.update(req.body.id, req.body.name, req.body.phone, req.body.address, req.body.email, req.body.rnc).then(data => {
+    customers.update(
+        req.body.id,
+        req.body.rut,
+        req.body.name,
+        req.body.activity,
+        req.body.district,
+        req.body.city,
+        req.body.address
+    ).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
@@ -41,4 +49,11 @@ router.post('/customers/destroy', (req, res) => {
     })
 })
 
+router.post('/customers/findOneByRut', (req, res) => {
+    customers.findOneByRut(req.body.rut).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
 module.exports = router

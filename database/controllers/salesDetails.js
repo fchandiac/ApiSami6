@@ -8,14 +8,15 @@ const sequelize = require('sequelize')
 
 
 
-async function create(sale_id, product_id, quanty, sale,  discount, subtotal){
+async function create(sale_id, product_id, quanty, sale,  discount, subtotal, name){
     const sale_detail = await SalesDetails.create({
         sale_id: sale_id, 
         product_id: product_id,
         quanty: quanty,
         sale: sale,
         discount: discount,
-        subtotal: subtotal
+        subtotal: subtotal,
+        name: name
         
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
 

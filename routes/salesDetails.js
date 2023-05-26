@@ -4,7 +4,15 @@ const sales_detail = require('../database/controllers/salesDetails')
 
 
 router.post('/salesDetails/create', (req, res) => {
-    sales_detail.create(req.body.sale_id, req.body.product_id, req.body.quanty, req.body.sale,  req.body.discount, req.body.subtotal).then(data => {
+    sales_detail.create(
+        req.body.sale_id, 
+        req.body.product_id, 
+        req.body.quanty, 
+        req.body.sale,  
+        req.body.discount, 
+        req.body.subtotal, 
+        req.body.name
+        ).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)

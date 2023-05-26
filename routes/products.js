@@ -12,7 +12,15 @@ router.post('/products/create', (req, res) => {
 })
 
 router.post('/products/updateFull', (req, res) => {
-    products.updateFull(req.body.id, req.body.name, req.body.code, req.body.category_id, req.body.price_id).then(data => {
+    products.updateFull(
+        req.body.id, 
+        req.body.name,
+        req.body.code, 
+        req.body.category_id, 
+        req.body.tax_id, 
+        req.body.sale, 
+        req.body.purchase
+    ).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
@@ -20,7 +28,14 @@ router.post('/products/updateFull', (req, res) => {
 })
 
 router.post('/products/update_no_price', (req, res) => {
-    products.update_no_price(req.body.id, req.body.name, req.body.code, req.body.category_id).then(data => {
+    products.update_no_price(
+        req.body.id, 
+        req.body.name,
+        req.body.code, 
+        req.body.ategory_id, 
+        req.body.tax_id, 
+        req.body.sale, purchase
+    ).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)

@@ -191,16 +191,8 @@ module.exports = {
           key: 'id'
         }
       },
-      product_id: {
-        allowNull: false,
-        unique: false,
-        type: Sequelize.INTEGER,
-        onDelete: 'CASCADE',
-        references: {
-          model: 'products',
-          key: 'id'
-        }
-      },
+      product_id: { type: Sequelize.INTEGER, defaultValue: 0 },
+      name: { type: Sequelize.STRING, defaultValue: '' },
       quanty: { type: Sequelize.FLOAT },
       sale: { type: Sequelize.INTEGER, defaultValue: 0  },
       discount: { type: Sequelize.INTEGER, defaultValue: 0 },

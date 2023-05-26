@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     class Customers extends Model {
     };
     Customers.init({
+    
         rut: DataTypes.STRING,
         name: DataTypes.STRING,
         activity: DataTypes.STRING,
