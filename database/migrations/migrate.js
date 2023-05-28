@@ -7,10 +7,10 @@ module.exports = {
       id: { allowNull: false, autoIncrement: true, primaryKey: true, type: Sequelize.INTEGER },
       name: { unique: true, type: Sequelize.STRING },
       un_lock: { type: Sequelize.BOOLEAN, defaultValue: false },
-      config: {type: Sequelize.BOOLEAN, defaultValue: false},
-      products: {type: Sequelize.BOOLEAN, defaultValue: false},
-      users: {type: Sequelize.BOOLEAN, defaultValue: false},
-      accounting: {type: Sequelize.BOOLEAN, defaultValue: false},
+      config: { type: Sequelize.BOOLEAN, defaultValue: false },
+      products: { type: Sequelize.BOOLEAN, defaultValue: false },
+      users: { type: Sequelize.BOOLEAN, defaultValue: false },
+      accounting: { type: Sequelize.BOOLEAN, defaultValue: false },
       created_at: { type: Sequelize.DATE },
       updated_at: { type: Sequelize.DATE }
 
@@ -28,7 +28,8 @@ module.exports = {
         references: {
           model: 'profiles',
           key: 'id'
-        }},
+        }
+      },
       created_at: { type: Sequelize.DATE },
       updated_at: { type: Sequelize.DATE }
 
@@ -94,7 +95,7 @@ module.exports = {
       stock_control: { type: Sequelize.BOOLEAN, defaultValue: true },
       affected: { type: Sequelize.BOOLEAN, defaultValue: true },
       sale: { type: Sequelize.INTEGER, defaultValue: 0 },
-      purchase: { type: Sequelize.INTEGER , defaultValue: 0},
+      purchase: { type: Sequelize.INTEGER, defaultValue: 0 },
       category_id: {
         allowNull: true,
         unique: false,
@@ -156,25 +157,25 @@ module.exports = {
 
 
     await queryInterface.createTable('sales', {
-        id: {
-          allowNull: false,
-          autoIncrement: true,
-          primaryKey: true,
-          type: Sequelize.INTEGER
-        },
-        amount: {type: Sequelize.INTEGER},
-        payment_method: {type: Sequelize.STRING},
-        dte_code: {type: Sequelize.INTEGER},
-        dte_number: {type: Sequelize.INTEGER},
-        created_at: {type: Sequelize.DATE},
-        updated_at: {type: Sequelize.DATE}
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
       },
+      amount: { type: Sequelize.INTEGER },
+      payment_method: { type: Sequelize.STRING },
+      dte_code: { type: Sequelize.INTEGER },
+      dte_number: { type: Sequelize.INTEGER },
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE }
+    },
       {
         underscored: true,
         initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
-    })
+      })
 
-        await queryInterface.createTable('salesdetails', {
+    await queryInterface.createTable('salesdetails', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -194,7 +195,7 @@ module.exports = {
       product_id: { type: Sequelize.INTEGER, defaultValue: 0 },
       name: { type: Sequelize.STRING, defaultValue: '' },
       quanty: { type: Sequelize.FLOAT },
-      sale: { type: Sequelize.INTEGER, defaultValue: 0  },
+      sale: { type: Sequelize.INTEGER, defaultValue: 0 },
       discount: { type: Sequelize.INTEGER, defaultValue: 0 },
       subtotal: { type: Sequelize.INTEGER },
       created_at: { type: Sequelize.DATE },
@@ -205,25 +206,55 @@ module.exports = {
         initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
       })
 
-      await queryInterface.createTable('customers', {
+    await queryInterface.createTable('customers', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+      rut: { type: Sequelize.STRING, unique: true },
+      name: { type: Sequelize.STRING },
+      activity: { type: Sequelize.STRING },
+      district: { type: Sequelize.INTEGER },
+      city: { type: Sequelize.INTEGER },
+      address: { type: Sequelize.STRING },
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE }
+    },
+      {
+        underscored: true,
+        initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
+      })
+
+      await queryInterface.createTable('pays', {
         id: {
           allowNull: false,
           autoIncrement: true,
           primaryKey: true,
           type: Sequelize.INTEGER
         },
-        rut: {type: Sequelize.STRING, unique: true},
-        name: {type: Sequelize.STRING},
-        activity: {type: Sequelize.STRING},
-        district: {type: Sequelize.INTEGER},
-        city: {type: Sequelize.INTEGER},
-        address: {type: Sequelize.STRING},
+        sale_id: {
+          allowNull: false,
+          unique: false,
+          type: Sequelize.INTEGER,
+          onDelete: 'CASCADE',
+          references: {
+            model: 'sales',
+            key: 'id'
+          }
+        },
+        customer_id: {type: Sequelize.INTEGER, allowNull: true },
+        amount: {type: Sequelize.INTEGER},
+        payment_method: {type: Sequelize.STRING},
+        state: {type: Sequelize.BOOLEAN},
+        date: {type: Sequelize.DATE},
         created_at: {type: Sequelize.DATE},
         updated_at: {type: Sequelize.DATE}
       },
       {
         underscored: true,
-        initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
+        initialAutoIncrement: 1001, 
     })
 
     // await queryInterface.createTable('stocks', {

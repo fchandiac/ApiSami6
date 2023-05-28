@@ -18,8 +18,8 @@ router.get('/sales/find_all', (req, res) => {
     })
 })
 
-router.post('/sales/find_one_by_id', (req,res) => {
-    sales.find_one_by_id(req.body.id).then(data => {
+router.post('/sales/findOneById', (req,res) => {
+    sales.findOneById(req.body.id).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)

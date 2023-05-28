@@ -26,10 +26,12 @@ async function find_all(){
     return sale
 }
 
-async function find_one_by_id(id){
+async function findOneById(id){
     const sale = await Sales.findOne(
-        {where: {id:id},
-        include: [{model:SalesDetails, include: [{model:Products, include:[Categories, Prices]}]}]}
+        {
+            include: SalesDetails,
+            where: {id:id}
+        }
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return sale
 }
@@ -129,7 +131,7 @@ async function find_one_min_create(){
 }
 sales.create = create
 sales.find_all = find_all
-sales.find_one_by_id = find_one_by_id
+sales.findOneById = findOneById
 sales.destroy_by_id = destroy_by_id
 sales.find_all_by_month_and_year = find_all_by_month_and_year
 sales.find_one_min_create = find_one_min_create
