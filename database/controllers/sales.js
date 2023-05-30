@@ -26,6 +26,13 @@ async function find_all(){
     return sale
 }
 
+async function findAllBetweenDates(start, end){
+    const sale = await Sales.findAll(
+        {where: {createdAt: {[sequelize.Op.between]: [start, end]}}, order: [['createdAt', 'DESC']]}
+    ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
+    return sale
+}
+
 async function findOneById(id){
     const sale = await Sales.findOne(
         {
@@ -129,7 +136,10 @@ async function find_one_min_create(){
     console.log(sale)
     return sale
 }
+
 sales.create = create
+sales.findAllBetweenDates = findAllBetweenDates
+
 sales.find_all = find_all
 sales.findOneById = findOneById
 sales.destroy_by_id = destroy_by_id
@@ -138,4 +148,6 @@ sales.find_one_min_create = find_one_min_create
 sales.find_all_by_date_range = find_all_by_date_range
 sales.find_all_one_date = find_all_one_date
 sales.find_all_by_date_range_group_by_date = find_all_by_date_range_group_by_date
+
+
 module.exports = sales

@@ -76,4 +76,16 @@ router.get('/sales/find_one_min_create', (req, res) => {
         res.json(err)
     })
 })
+
+
+
+router.post('/sales/findAllBetweenDates', (req, res) => {
+    sales.findAllBetweenDates(req.body.start, req.body.end).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
+
 module.exports = router

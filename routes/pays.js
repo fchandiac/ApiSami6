@@ -42,4 +42,12 @@ router.post('/pays/destroy', (req, res) => {
     })
 })
 
+router.post('/pays/findAllBetweenDates', (req, res) => {
+    pays.findAllBetweenDates(req.body.start, req.body.end).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
 module.exports = router

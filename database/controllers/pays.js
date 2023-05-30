@@ -1,5 +1,6 @@
 const {Pays} = require('../db')
 const pays = {}
+const sequelize = require('sequelize')
 
 async function create(sale_id, customer_id, amount, payment_method, state, date) {
     const pay = await Pays.create({
@@ -15,7 +16,9 @@ async function create(sale_id, customer_id, amount, payment_method, state, date)
 }
 
 async function findAll() {
-    const pays = await Pays.findAll().then(data => {return {'code': 1, 'data': data}}).catch(err => {return {'code': 0, 'data': err}})
+    const pays = await Pays.findAll(
+        {order: [['state', 'ASC']]}
+    ).then(data => {return {'code': 1, 'data': data}}).catch(err => {return {'code': 0, 'data': err}})
     return pays
 }
 
@@ -35,9 +38,17 @@ async function destroy(id) {
     return pay
 }
 
+async function findAllBetweenDates(start, end){
+    const pays = await Pays.findAll(
+        {where: {date: {[sequelize.Op.between]: [start, end]}}, order: [['state', 'ASC']]}
+    ).then(data => {return {'code': 1, 'data': data}}).catch(err => {return {'code': 0, 'data': err}})
+    return pays
+}
+
 pays.create = create
 pays.findAll = findAll
 pays.updateState = updateState
 pays.destroy = destroy
+pays.findAllBetweenDates = findAllBetweenDates
 
 module.exports = pays

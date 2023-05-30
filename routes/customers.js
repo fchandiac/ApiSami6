@@ -56,4 +56,13 @@ router.post('/customers/findOneByRut', (req, res) => {
         res.json(err)
     })
 })
+
+router.post('/customers/findOneById', (req, res) => {
+    customers.findOneById(req.body.id).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
 module.exports = router

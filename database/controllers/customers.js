@@ -40,10 +40,16 @@ async function findOneByRut(rut) {
     return customer
 }
 
+async function findOneById(id) {
+    const customer = await Customers.findOne({ where: { id: id } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    return customer
+}
+
 customers.create = create
 customers.findAll = findAll
 customers.update = update
 customers.destroy = destroy
 customers.findOneByRut = findOneByRut
+customers.findOneById = findOneById
 
 module.exports = customers
