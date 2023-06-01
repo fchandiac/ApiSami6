@@ -8,12 +8,13 @@ const moment = require('moment');
 const sales = {}
 
 
-async function create(amount, payment_method, dte_code, dte_number){
+async function create(amount, payment_method, dte_code, dte_number, stock_control){
     const sale = await Sales.create({
         amount: amount,
         payment_method: payment_method,
         dte_code: dte_code,
-        dte_number: dte_number
+        dte_number: dte_number,
+        stock_control: stock_control
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
 
     return sale
@@ -43,7 +44,7 @@ async function findOneById(id){
     return sale
 }
 
-async function destroy_by_id(id){
+async function destroy(id){
     const sale = await Sales.destroy({where:{id:id}}).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return sale
 }
@@ -139,10 +140,10 @@ async function find_one_min_create(){
 
 sales.create = create
 sales.findAllBetweenDates = findAllBetweenDates
-
-sales.find_all = find_all
 sales.findOneById = findOneById
-sales.destroy_by_id = destroy_by_id
+sales.destroy = destroy
+
+
 sales.find_all_by_month_and_year = find_all_by_month_and_year
 sales.find_one_min_create = find_one_min_create
 sales.find_all_by_date_range = find_all_by_date_range

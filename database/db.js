@@ -3,7 +3,11 @@ const {Sequelize, DataTypes} = require('sequelize')
 const db = {};
 const config = require('./config/config')
 
-db.connection = new Sequelize('sami_6','root','Fenasantma', {host: 'localhost', dialect: "mysql"})
+db.connection = new Sequelize(
+    'sami_6',
+    'root',
+    'Fenasantma', 
+    {host: 'localhost', dialect: "mysql", timezone: '-04:00'})
 
 db.Categories = require('./models/categories')(db.connection, DataTypes)
 db.Taxes = require('./models/taxes')(db.connection, DataTypes)

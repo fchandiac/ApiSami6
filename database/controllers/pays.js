@@ -40,7 +40,10 @@ async function destroy(id) {
 
 async function findAllBetweenDates(start, end){
     const pays = await Pays.findAll(
-        {where: {date: {[sequelize.Op.between]: [start, end]}}, order: [['state', 'ASC']]}
+        {
+            where: {date: {[sequelize.Op.between]: [start, end]}}, 
+            order: [['state', 'ASC'], ['createdAt', 'DESC']]
+        }
     ).then(data => {return {'code': 1, 'data': data}}).catch(err => {return {'code': 0, 'data': err}})
     return pays
 }

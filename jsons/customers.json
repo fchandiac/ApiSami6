@@ -1,0 +1,79 @@
+[
+	{
+		"id" : 1001,
+		"rut" : "77.564.928-3",
+		"name" : "AGRICOLA PATACON SPA",
+		"activity" : "CRIA DE GANADO BOVINO PARA LA PRODUCCION DE CARNE O COMO GANADO REPROD",
+		"district" : 130,
+		"city" : 89,
+		"address" : "Lote 1 La Palma",
+		"created_at" : "2023-05-26 13:48:00",
+		"updated_at" : "2023-05-26 13:48:00"
+	},
+	{
+		"id" : 1002,
+		"rut" : "77.144.943-3",
+		"name" : "DISTRIBUIDORA DON LUCHO LIMITADA",
+		"activity" : "VENTA AL POR MAYOR DE BEBIDAS ALCOHOLICAS Y NO ALCOHOLICAS",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 115A",
+		"created_at" : "2023-05-26 18:23:45",
+		"updated_at" : "2023-05-26 18:23:45"
+	},
+	{
+		"id" : 1003,
+		"rut" : "4.499.575-1",
+		"name" : "CARLOS ANTONIO ROJO ZUNIGA",
+		"activity" : "TRANSPORTE DE CARGA POR CARRETERA",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO 55",
+		"created_at" : "2023-05-26 21:04:41",
+		"updated_at" : "2023-05-26 21:04:41"
+	},
+	{
+		"id" : 1004,
+		"rut" : "8.686.971-3",
+		"name" : "MARIA NURIA TAPIA RETAMAL",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 141,
+		"city" : 93,
+		"address" : "ANIBAL PINTO 98",
+		"created_at" : "2023-05-26 21:44:41",
+		"updated_at" : "2023-05-26 21:44:41"
+	},
+	{
+		"id" : 1005,
+		"rut" : "76.359.626-5",
+		"name" : "comercial diez y moreno ltda.",
+		"activity" : "venta de partes y accesorios para vehiculos",
+		"district" : 141,
+		"city" : 93,
+		"address" : "anibal pinto 70",
+		"created_at" : "2023-05-27 15:08:24",
+		"updated_at" : "2023-05-27 15:08:24"
+	},
+	{
+		"id" : 1006,
+		"rut" : "12.360.346-k",
+		"name" : "PATRICIO FERNANDO PRADENA VALLEJOS",
+		"activity" : "CULTIVO DE TRIGO",
+		"district" : 142,
+		"city" : 85,
+		"address" : "romeral parcela 73 S/N",
+		"created_at" : "2023-05-29 18:35:19",
+		"updated_at" : "2023-05-29 18:35:19"
+	},
+	{
+		"id" : 1007,
+		"rut" : "77.620.324-6",
+		"name" : "ORIZONTE SOLAR SPA",
+		"activity" : "ALQUILER DE OTROS TIPOS DE MAQUINARIAS Y EQUIPOS SIN OPERARIO N.C.P.",
+		"district" : 83,
+		"city" : 63,
+		"address" : "pasaje isla negra 1238",
+		"created_at" : "2023-05-31 17:45:45",
+		"updated_at" : "2023-05-31 17:45:45"
+	}
+]
