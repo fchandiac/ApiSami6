@@ -1,10 +1,9 @@
-const { Orders } = require('../db')
+const { Orders, OrdersDetails } = require('../db')
 const sequelize = require('sequelize')
 const orders = {}
 
-async function create (note){
+async function create (){
     const order = await Orders.create({
-        note:note
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return order
 }
@@ -17,29 +16,31 @@ async function create_delivery (note){
     return order
 }
 
-async function find_all() {
+async function findAll() {
     const orders = await Orders.findAll({
+        include: {model:OrdersDetails},
         order: [[sequelize.col('id'), 'DESC']]
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return orders
 } 
 
 
-async function find_one_by_id(id) {
+async function findOneById(id) {
     const order = await Orders.findOne({
-        where: {id:id}
+        where: {id:id},
+        include: {model:OrdersDetails}
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return order
 }
 
-async function destroy_by_id(id){
+async function destroy(id){
     const order = await Orders.destroy({
         where: {id:id}
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return order
 }
 
-async function update_state(id, state){
+async function updateState(id, state){
     const order = await Orders.update({
         state: state
     }, {where: {id:id}}).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
@@ -82,16 +83,11 @@ async function find_all_by_table_open(table){
 }
 
 orders.create = create
-orders.find_all = find_all
-orders.find_one_by_id = find_one_by_id
-orders.destroy_by_id = destroy_by_id
-orders.update_state = update_state
-orders.destroy_close_orders = destroy_close_orders
-orders.destroy_past_orders = destroy_past_orders
-orders.update_table = update_table
-orders.find_all_by_table_open = find_all_by_table_open
-orders.update_printed = update_printed
-orders.create_delivery = create_delivery
+orders.findAll = findAll
+orders.updateState = updateState
+orders.destroy = destroy
+orders.findOneById = findOneById
+
 
 
 module.exports = orders

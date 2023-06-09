@@ -23,6 +23,10 @@ app.use(require('./routes/profiles'))
 app.use(require('./routes/salesDetails'))
 app.use(require('./routes/customers'))
 app.use(require('./routes/pays'))
+app.use(require('./routes/orders'))
+app.use(require('./routes/ordersDetails'))
+
+
 
 // app.use(require('./routes/orders'))
 // app.use(require('./routes/orders_details'))

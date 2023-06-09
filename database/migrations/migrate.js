@@ -18,8 +18,9 @@ module.exports = {
 
     await queryInterface.createTable('users', {
       id: { allowNull: false, autoIncrement: true, primaryKey: true, type: Sequelize.INTEGER },
+      user: { unique: true, type: Sequelize.STRING },
       name: { unique: true, type: Sequelize.STRING },
-      password: { type: Sequelize.STRING },
+      pass: { type: Sequelize.STRING },
       profile_id: {
         allowNull: true,
         unique: false,
@@ -145,6 +146,17 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      user_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: 'SET NULL',
+        defaultValue: 1001,
+        references: {
+          model: 'users',
+          key: 'id'
+        }
+      },
       amount: { type: Sequelize.INTEGER },
       payment_method: { type: Sequelize.STRING },
       dte_code: { type: Sequelize.INTEGER },
@@ -203,6 +215,8 @@ module.exports = {
       district: { type: Sequelize.INTEGER },
       city: { type: Sequelize.INTEGER },
       address: { type: Sequelize.STRING },
+      phone: { type: Sequelize.STRING },
+      email: { type: Sequelize.STRING },
       created_at: { type: Sequelize.DATE },
       updated_at: { type: Sequelize.DATE }
     },
@@ -249,6 +263,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       state: { type: Sequelize.BOOLEAN, defaultValue: false },
+      note: { type: Sequelize.STRING, defaultValue: '' },
       created_at: { type: Sequelize.DATE },
       updated_at: { type: Sequelize.DATE }
     },
@@ -279,7 +294,7 @@ module.exports = {
         quanty: { type: Sequelize.FLOAT },
         sale: { type: Sequelize.INTEGER, defaultValue: 0 },
         discount: { type: Sequelize.INTEGER, defaultValue: 0 },
-        subtotal: { type: Sequelize.INTEGER },
+        subtotal: { type: Sequelize.INTEGER, defaultValue: 0 },
         created_at: { type: Sequelize.DATE },
         updated_at: { type: Sequelize.DATE }
       },

@@ -6,10 +6,10 @@ module.exports = (sequelize, DataTypes) => {
   };
   Orders.init({
     state: DataTypes.BOOLEAN,
-    table: DataTypes.INTEGER,
-    printed: DataTypes.BOOLEAN,
-    delivery:DataTypes.BOOLEAN,
-    note:DataTypes.STRING
+    // table: DataTypes.INTEGER,
+    // printed: DataTypes.BOOLEAN,
+    // delivery:DataTypes.BOOLEAN,
+    // note:DataTypes.STRING
   }, {
     sequelize,
     modelName: 'orders',

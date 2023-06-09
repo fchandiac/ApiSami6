@@ -1,7 +1,7 @@
 const {SalesDetails} = require ('../db')
 const {Products} = require('../db')
 const {Categories} = require('../db')
-const {Prices} = require('../db')
+
 const {Sales} = require('../db')
 const sales_details = {}
 const sequelize = require('sequelize')
@@ -77,33 +77,23 @@ async function find_all_by_date_range_group_by_category(start_date, end_date){
 
 }
 
-//////////// OLD QUERY //////
-// async function find_all_by_date_range_group_by_category(start_date, end_date){
-//     const sale = await SalesDetails.findAll({
-//         attributes: [
-//             'CategoryId',
-//             [sequelize.fn('sum', sequelize.col('subtotal')), 'total_amount'],
-//         ],
-//         include: Categories,
-//         where: {createdAt: {[sequelize.Op.between]: [start_date, end_date]}},
-//         group: ['CategoryId'],
-//         order: [[sequelize.col('total_amount'),'DESC']]
-//     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
-//     return sale
-// }
 
-async function find_all_by_date_range_group_by_product(start_date, end_date){
+async function findAllBetweenDateGroupByProduct(start, end){
     const sale = await SalesDetails.findAll({
  
         attributes: [
             'ProductId',
             [sequelize.fn('sum', sequelize.col('subtotal')), 'total_amount'],
+            [sequelize.fn('sum', sequelize.col('quanty')), 'total_quanty']
         ],
-        include: Products,
+        include:{ model: Products, include: [{model: Categories}]},
         group: ['ProductId'],
-        //where: [sequelize.where(sequelize.fn('DATE', sequelize.col('created_at')), start_date)]
-        where: {createdAt: {[sequelize.Op.between]: [start_date, end_date]}},
-        order: [[sequelize.col('total_amount'),'DESC']]
+        where: {
+            createdAt: {
+              [sequelize.Op.between]: [start, end]
+            }
+          }
+        //order: [[sequelize.col('total_amount'),'DESC']]
   
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return sale
@@ -168,14 +158,17 @@ async function find_total_by_date_range_and_category(start_date, end_date, categ
 
 
 sales_details.create = create
+sales_details.findAllBetweenDateGroupByProduct = findAllBetweenDateGroupByProduct
+sales_details.findAllBySale = findAllBySale
+
+
 sales_details.find_all = find_all
 sales_details.find_all_by_date_range_group_by_category = find_all_by_date_range_group_by_category
-sales_details.find_all_by_date_range_group_by_product = find_all_by_date_range_group_by_product
 sales_details.find_all_by_date_range_and_category = find_all_by_date_range_and_category
 sales_details.find_all_by_date_range = find_all_by_date_range
 sales_details.find_total_by_date_range = find_total_by_date_range
 sales_details.find_total_by_date_range_and_category = find_total_by_date_range_and_category
-sales_details.findAllBySale = findAllBySale
+
 
 module.exports = sales_details
 

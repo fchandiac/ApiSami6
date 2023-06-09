@@ -1,10 +1,10 @@
 const express = require('express')
 const router = express.Router()
-const orders = require('../server/controllers/orders')
+const orders = require('../database/controllers/orders')
 
 
-router.post('/orders/create', (req, res) => {
-    orders.create(req.body.note).then(data => {
+router.get('/orders/create', (req, res) => {
+    orders.create().then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
@@ -19,32 +19,32 @@ router.post('/orders/create_delivery', (req, res) => {
     })
 })
 
-router.get('/orders/find_all', (req, res) => {
-    orders.find_all().then(data => {
+router.get('/orders/findAll', (req, res) => {
+    orders.findAll().then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
     })
 })
 
-router.post('/orders/find_one_by_id', (req, res) => {
-    orders.find_one_by_id(req.body.id).then(data => {
+router.post('/orders/findOneById', (req, res) => {
+    orders.findOneById(req.body.id).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
     })
 })
 
-router.post('/orders/destroy_by_id', (req, res) => {
-    orders.destroy_by_id(req.body.id).then(data => {
+router.post('/orders/destroy', (req, res) => {
+    orders.destroy(req.body.id).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
     })
 })
 
-router.post('/orders/update_state', (req,res) => {
-    orders.update_state(req.body.id, req.body.state).then(data => {
+router.post('/orders/updateState', (req,res) => {
+    orders.updateState(req.body.id, req.body.state).then(data => {
         res.json(data)
     }).catch(err => {
         res.json(err)
@@ -90,20 +90,6 @@ router.post('/orders/find_all_by_table_open', (req, res) => {
         res.json(err)
     })
 })
-
-const print = require('../js/printer')
-
-
-
-router.get('/print', (req, res) => {
-    print.print_test()
-    //console.log('hahaha')
-    res.send('se imprimio?')
-    
-})
-
-
-
 
 
 module.exports = router

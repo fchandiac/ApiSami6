@@ -16,8 +16,6 @@ router.post('/sales/create', (req, res) => {
     })
 })
 
-
-
 router.post('/sales/findOneById', (req,res) => {
     sales.findOneById(req.body.id).then(data => {
         res.json(data)
@@ -25,7 +23,6 @@ router.post('/sales/findOneById', (req,res) => {
         res.json(err)
     })
 })
-
 
 router.post('/sales/findAllBetweenDates', (req, res) => {
     sales.findAllBetweenDates(req.body.start, req.body.end).then(data => {
@@ -42,5 +39,30 @@ router.post('/sales/destroy', (req, res) => {
         res.json(err)
     })
 })
+
+router.post('/sales/findAllBetweenDateGroupByDate', (req, res) => {
+    sales.findAllBetweenDateGroupByDate(req.body.start, req.body.end).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
+router.post('/sales/findAllBetweenDateGroupByPayment', (req, res) => {
+    sales.findAllBetweenDateGroupByPayment(req.body.start, req.body.end).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
+router.post('/sales/findAllBetweenDateGroupByDte', (req, res) => {
+    sales.findAllBetweenDateGroupByDte(req.body.start, req.body.end).then(data => {
+        res.json(data)
+    }).catch(err => {
+        res.json(err)
+    })
+})
+
 
 module.exports = router
