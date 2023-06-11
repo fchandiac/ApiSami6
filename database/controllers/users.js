@@ -14,7 +14,8 @@ async function create(user, name, pass, profile_id) {
 
 async function findAll() {
     const users = await Users.findAll({
-        order: [[sequelize.col('id'), 'DESC']]
+        order: [[sequelize.col('id'), 'DESC']],
+        include: Profiles
     }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return users
 }

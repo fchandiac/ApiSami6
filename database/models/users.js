@@ -9,7 +9,6 @@ module.exports = (sequelize, DataTypes) => {
         name: DataTypes.STRING,
         pass: DataTypes.STRING,
         profile_id: DataTypes.INTEGER
-
     }, {
         sequelize,
         modelName: 'Users',
