@@ -9,7 +9,8 @@ module.exports = (sequelize, DataTypes) => {
     payment_method: DataTypes.STRING,
     dte_code: DataTypes.INTEGER,
     dte_number: DataTypes.INTEGER,
-    stock_control: DataTypes.BOOLEAN
+    stock_control: DataTypes.BOOLEAN,
+    user_id: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Sales',

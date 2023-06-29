@@ -9,6 +9,7 @@ router.post('/sales/create', (req, res) => {
         req.body.dte_code, 
         req.body.dte_number,
         req.body.stock_control,
+        req.body.user_id
         ).then(data => {
         res.json(data)
     }).catch(err => {

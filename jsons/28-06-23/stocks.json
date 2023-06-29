@@ -24,7 +24,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 12:18:48"
 	},
 	{
 		"id" : 1004,
@@ -114,7 +114,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 18:03:14"
 	},
 	{
 		"id" : 1014,
@@ -303,7 +303,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 18:23:42"
 	},
 	{
 		"id" : 1035,
@@ -348,7 +348,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 15:21:50"
 	},
 	{
 		"id" : 1040,
@@ -375,7 +375,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 18:03:14"
 	},
 	{
 		"id" : 1043,
@@ -411,7 +411,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 15:05:04"
 	},
 	{
 		"id" : 1047,
@@ -591,7 +591,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 12:50:32"
 	},
 	{
 		"id" : 1067,
@@ -681,7 +681,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 15:21:39"
 	},
 	{
 		"id" : 1077,
@@ -744,7 +744,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 09:40:56"
 	},
 	{
 		"id" : 1084,
@@ -789,7 +789,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 13:16:43"
 	},
 	{
 		"id" : 1089,
@@ -852,7 +852,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 13:49:38"
 	},
 	{
 		"id" : 1096,
@@ -906,7 +906,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 15:50:01"
 	},
 	{
 		"id" : 1102,
@@ -915,7 +915,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 13:41:19"
+		"updated_at" : "2023-06-13 09:51:33"
 	},
 	{
 		"id" : 1103,
@@ -924,7 +924,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 10:27:32"
 	},
 	{
 		"id" : 1104,
@@ -933,7 +933,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 09:51:33"
 	},
 	{
 		"id" : 1105,
@@ -1005,7 +1005,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 15:30:58"
 	},
 	{
 		"id" : 1113,
@@ -1104,7 +1104,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 14:44:41"
 	},
 	{
 		"id" : 1124,
@@ -1221,7 +1221,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 13:16:43"
 	},
 	{
 		"id" : 1137,
@@ -1239,7 +1239,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 12:02:38"
 	},
 	{
 		"id" : 1139,
@@ -1302,7 +1302,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 11:41:52"
 	},
 	{
 		"id" : 1146,
@@ -1347,7 +1347,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 12:40:39"
+		"updated_at" : "2023-06-17 14:07:09"
 	},
 	{
 		"id" : 1151,
@@ -1365,7 +1365,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 18:23:42"
 	},
 	{
 		"id" : 1153,
@@ -1374,7 +1374,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 18:23:42"
 	},
 	{
 		"id" : 1154,
@@ -1545,7 +1545,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:54:50"
 	},
 	{
 		"id" : 1173,
@@ -1608,7 +1608,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 11:25:47"
 	},
 	{
 		"id" : 1180,
@@ -1635,7 +1635,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 13:52:14"
 	},
 	{
 		"id" : 1183,
@@ -1653,7 +1653,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 16:51:59"
 	},
 	{
 		"id" : 1185,
@@ -1788,7 +1788,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 17:26:55"
 	},
 	{
 		"id" : 1200,
@@ -1824,7 +1824,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 09:55:57"
 	},
 	{
 		"id" : 1204,
@@ -1851,7 +1851,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 08:58:05"
 	},
 	{
 		"id" : 1207,
@@ -1905,7 +1905,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:32:01"
 	},
 	{
 		"id" : 1213,
@@ -1941,7 +1941,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 14:30:05"
 	},
 	{
 		"id" : 1217,
@@ -1968,7 +1968,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 14:46:38"
+		"updated_at" : "2023-06-11 12:32:01"
 	},
 	{
 		"id" : 1220,
@@ -2004,7 +2004,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:01:02"
 	},
 	{
 		"id" : 1224,
@@ -2040,7 +2040,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 15:30:58"
 	},
 	{
 		"id" : 1228,
@@ -2067,7 +2067,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 14:02:59"
 	},
 	{
 		"id" : 1231,
@@ -2130,7 +2130,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:07:09"
 	},
 	{
 		"id" : 1238,
@@ -2274,7 +2274,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 18:34:44"
+		"updated_at" : "2023-06-16 12:38:36"
 	},
 	{
 		"id" : 1254,
@@ -2346,7 +2346,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 11:25:47"
 	},
 	{
 		"id" : 1262,
@@ -2355,7 +2355,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:41:46"
 	},
 	{
 		"id" : 1263,
@@ -2364,7 +2364,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 11:25:47"
 	},
 	{
 		"id" : 1264,
@@ -2373,7 +2373,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 13:36:07"
 	},
 	{
 		"id" : 1265,
@@ -2436,7 +2436,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 16:59:40"
 	},
 	{
 		"id" : 1272,
@@ -2535,7 +2535,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 12:40:39"
+		"updated_at" : "2023-06-14 09:30:36"
 	},
 	{
 		"id" : 1283,
@@ -2562,7 +2562,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:50:17"
 	},
 	{
 		"id" : 1286,
@@ -2571,7 +2571,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 15:55:12"
 	},
 	{
 		"id" : 1287,
@@ -2634,7 +2634,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 11:30:19"
 	},
 	{
 		"id" : 1294,
@@ -2643,7 +2643,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 14:50:02"
 	},
 	{
 		"id" : 1295,
@@ -2751,7 +2751,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:43:02"
+		"updated_at" : "2023-06-12 09:51:54"
 	},
 	{
 		"id" : 1307,
@@ -2778,7 +2778,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 10:58:59"
 	},
 	{
 		"id" : 1310,
@@ -2814,7 +2814,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:10:43"
 	},
 	{
 		"id" : 1314,
@@ -2868,7 +2868,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:16:05"
 	},
 	{
 		"id" : 1320,
@@ -2922,7 +2922,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 15:26:01"
 	},
 	{
 		"id" : 1326,
@@ -3039,7 +3039,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:50:17"
 	},
 	{
 		"id" : 1339,
@@ -3066,7 +3066,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 12:55:33"
 	},
 	{
 		"id" : 1342,
@@ -3075,7 +3075,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 17:44:47"
 	},
 	{
 		"id" : 1343,
@@ -3084,7 +3084,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:01:02"
 	},
 	{
 		"id" : 1344,
@@ -3102,7 +3102,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:43:02"
+		"updated_at" : "2023-06-11 16:50:25"
 	},
 	{
 		"id" : 1346,
@@ -3192,7 +3192,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:54:50"
 	},
 	{
 		"id" : 1356,
@@ -3336,7 +3336,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 14:59:07"
+		"updated_at" : "2023-06-11 11:41:52"
 	},
 	{
 		"id" : 1372,
@@ -3345,7 +3345,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 11:55:34"
 	},
 	{
 		"id" : 1373,
@@ -3363,7 +3363,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 11:52:30"
 	},
 	{
 		"id" : 1375,
@@ -3435,7 +3435,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 18:20:21"
 	},
 	{
 		"id" : 1383,
@@ -3462,7 +3462,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 17:07:28"
 	},
 	{
 		"id" : 1386,
@@ -3480,7 +3480,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:29:50"
 	},
 	{
 		"id" : 1388,
@@ -3489,7 +3489,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:43:02"
+		"updated_at" : "2023-06-14 11:39:55"
 	},
 	{
 		"id" : 1389,
@@ -3498,7 +3498,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 17:05:16"
+		"updated_at" : "2023-06-13 17:29:39"
 	},
 	{
 		"id" : 1390,
@@ -3516,7 +3516,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 15:39:31"
+		"updated_at" : "2023-06-17 14:12:39"
 	},
 	{
 		"id" : 1392,
@@ -3534,7 +3534,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 16:17:59"
 	},
 	{
 		"id" : 1394,
@@ -3597,7 +3597,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 16:55:06"
 	},
 	{
 		"id" : 1401,
@@ -3669,7 +3669,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 13:08:55"
+		"updated_at" : "2023-06-17 16:16:41"
 	},
 	{
 		"id" : 1409,
@@ -3696,7 +3696,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 18:34:44"
+		"updated_at" : "2023-06-11 13:00:28"
 	},
 	{
 		"id" : 1412,
@@ -3768,7 +3768,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 17:18:47"
 	},
 	{
 		"id" : 1420,
@@ -3867,7 +3867,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 13:39:16"
 	},
 	{
 		"id" : 1431,
@@ -3885,7 +3885,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 13:21:38"
 	},
 	{
 		"id" : 1433,
@@ -3912,7 +3912,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 12:55:33"
 	},
 	{
 		"id" : 1436,
@@ -3930,7 +3930,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 17:12:33"
 	},
 	{
 		"id" : 1438,
@@ -3975,7 +3975,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 17:49:57"
 	},
 	{
 		"id" : 1443,
@@ -3984,7 +3984,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 16:09:24"
 	},
 	{
 		"id" : 1444,
@@ -3993,7 +3993,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 09:01:15"
 	},
 	{
 		"id" : 1445,
@@ -4290,7 +4290,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 14:02:59"
 	},
 	{
 		"id" : 1478,
@@ -4317,7 +4317,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 17:06:19"
 	},
 	{
 		"id" : 1481,
@@ -4425,7 +4425,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 09:49:21"
 	},
 	{
 		"id" : 1493,
@@ -4452,7 +4452,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 11:30:52"
 	},
 	{
 		"id" : 1496,
@@ -4578,7 +4578,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 12:43:23"
 	},
 	{
 		"id" : 1510,
@@ -4605,7 +4605,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:51:51"
 	},
 	{
 		"id" : 1513,
@@ -4614,7 +4614,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 08:53:22"
 	},
 	{
 		"id" : 1514,
@@ -4668,7 +4668,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 08:53:22"
 	},
 	{
 		"id" : 1520,
@@ -4704,7 +4704,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 09:51:54"
 	},
 	{
 		"id" : 1524,
@@ -4821,7 +4821,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 14:02:59"
 	},
 	{
 		"id" : 1537,
@@ -4830,7 +4830,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 10:14:42"
 	},
 	{
 		"id" : 1538,
@@ -5028,7 +5028,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:40:11"
 	},
 	{
 		"id" : 1560,
@@ -5037,7 +5037,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 09:51:33"
 	},
 	{
 		"id" : 1561,
@@ -5046,7 +5046,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 11:32:52"
 	},
 	{
 		"id" : 1562,
@@ -5055,7 +5055,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 13:01:58"
 	},
 	{
 		"id" : 1563,
@@ -5109,7 +5109,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 11:32:52"
 	},
 	{
 		"id" : 1569,
@@ -5352,7 +5352,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 15:40:24"
 	},
 	{
 		"id" : 1596,
@@ -5370,7 +5370,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 13:36:47"
 	},
 	{
 		"id" : 1598,
@@ -5379,7 +5379,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 15:06:42"
 	},
 	{
 		"id" : 1599,
@@ -5406,7 +5406,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 12:41:33"
+		"updated_at" : "2023-06-17 14:29:50"
 	},
 	{
 		"id" : 1602,
@@ -5415,7 +5415,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:29:50"
 	},
 	{
 		"id" : 1603,
@@ -5424,7 +5424,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:43:02"
+		"updated_at" : "2023-06-17 14:29:50"
 	},
 	{
 		"id" : 1604,
@@ -5433,7 +5433,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 13:20:11"
 	},
 	{
 		"id" : 1605,
@@ -5514,7 +5514,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 10:57:17"
 	},
 	{
 		"id" : 1614,
@@ -5676,7 +5676,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 09:54:56"
 	},
 	{
 		"id" : 1632,
@@ -5694,7 +5694,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 10:46:59"
 	},
 	{
 		"id" : 1634,
@@ -5829,7 +5829,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 10:45:39"
+		"updated_at" : "2023-06-12 09:46:34"
 	},
 	{
 		"id" : 1649,
@@ -5838,7 +5838,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 10:45:39"
+		"updated_at" : "2023-06-12 09:46:34"
 	},
 	{
 		"id" : 1650,
@@ -6000,7 +6000,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:01:02"
 	},
 	{
 		"id" : 1668,
@@ -6009,7 +6009,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 17:43:13"
 	},
 	{
 		"id" : 1669,
@@ -6018,7 +6018,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:01:02"
 	},
 	{
 		"id" : 1670,
@@ -6036,7 +6036,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 12:59:46"
 	},
 	{
 		"id" : 1672,
@@ -6108,7 +6108,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:04:54"
 	},
 	{
 		"id" : 1680,
@@ -6126,7 +6126,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 14:33:34"
 	},
 	{
 		"id" : 1682,
@@ -6198,7 +6198,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 16:14:04"
 	},
 	{
 		"id" : 1690,
@@ -6261,7 +6261,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 11:52:50"
 	},
 	{
 		"id" : 1697,
@@ -6270,7 +6270,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 09:42:21"
 	},
 	{
 		"id" : 1698,
@@ -6306,7 +6306,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 09:54:56"
 	},
 	{
 		"id" : 1702,
@@ -6333,7 +6333,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 11:30:46"
 	},
 	{
 		"id" : 1705,
@@ -6423,7 +6423,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 10:56:14"
 	},
 	{
 		"id" : 1715,
@@ -6468,7 +6468,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 13:55:04"
 	},
 	{
 		"id" : 1720,
@@ -6729,7 +6729,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 17:01:50"
 	},
 	{
 		"id" : 1749,
@@ -7224,7 +7224,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:29:50"
 	},
 	{
 		"id" : 1804,
@@ -7314,7 +7314,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 15:49:59"
 	},
 	{
 		"id" : 1814,
@@ -7323,7 +7323,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 12:32:50"
+		"updated_at" : "2023-06-12 16:09:24"
 	},
 	{
 		"id" : 1815,
@@ -7341,7 +7341,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 15:49:59"
 	},
 	{
 		"id" : 1817,
@@ -7395,7 +7395,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 16:59:40"
 	},
 	{
 		"id" : 1823,
@@ -7440,7 +7440,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 13:20:11"
 	},
 	{
 		"id" : 1828,
@@ -7638,7 +7638,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 11:57:38"
 	},
 	{
 		"id" : 1850,
@@ -7665,7 +7665,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 12:31:45"
 	},
 	{
 		"id" : 1853,
@@ -7701,7 +7701,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 10:29:40"
 	},
 	{
 		"id" : 1857,
@@ -7773,7 +7773,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 17:49:57"
 	},
 	{
 		"id" : 1865,
@@ -7782,7 +7782,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 16:59:40"
 	},
 	{
 		"id" : 1866,
@@ -7791,7 +7791,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 13:20:11"
 	},
 	{
 		"id" : 1867,
@@ -7827,7 +7827,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 15:21:50"
 	},
 	{
 		"id" : 1871,
@@ -7899,7 +7899,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 12:31:45"
 	},
 	{
 		"id" : 1879,
@@ -7980,7 +7980,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 18:10:53"
 	},
 	{
 		"id" : 1888,
@@ -7998,7 +7998,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 13:20:11"
 	},
 	{
 		"id" : 1890,
@@ -8223,7 +8223,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 11:24:23"
 	},
 	{
 		"id" : 1915,
@@ -8241,7 +8241,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 13:10:32"
 	},
 	{
 		"id" : 1917,
@@ -8277,7 +8277,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 09:51:54"
+		"updated_at" : "2023-06-17 13:27:24"
 	},
 	{
 		"id" : 1921,
@@ -8286,7 +8286,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 09:46:34"
 	},
 	{
 		"id" : 1922,
@@ -8295,7 +8295,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 10:10:39"
 	},
 	{
 		"id" : 1923,
@@ -8313,7 +8313,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 10:46:59"
 	},
 	{
 		"id" : 1925,
@@ -8331,7 +8331,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 17:41:25"
+		"updated_at" : "2023-06-12 13:30:43"
 	},
 	{
 		"id" : 1927,
@@ -8412,7 +8412,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 13:16:43"
 	},
 	{
 		"id" : 1936,
@@ -8430,7 +8430,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 14:00:34"
 	},
 	{
 		"id" : 1938,
@@ -8475,7 +8475,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:07:09"
 	},
 	{
 		"id" : 1943,
@@ -8484,7 +8484,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 17:11:41"
+		"updated_at" : "2023-06-16 11:55:16"
 	},
 	{
 		"id" : 1944,
@@ -8610,7 +8610,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 16:59:40"
 	},
 	{
 		"id" : 1958,
@@ -8736,7 +8736,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 11:38:18"
 	},
 	{
 		"id" : 1972,
@@ -8754,7 +8754,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:41:46"
 	},
 	{
 		"id" : 1974,
@@ -8790,7 +8790,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:24:54"
 	},
 	{
 		"id" : 1978,
@@ -8925,7 +8925,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:24:54"
 	},
 	{
 		"id" : 1993,
@@ -8979,7 +8979,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 11:23:56"
 	},
 	{
 		"id" : 1999,
@@ -9024,7 +9024,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:07:51"
 	},
 	{
 		"id" : 2004,
@@ -9456,7 +9456,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 09:27:07"
 	},
 	{
 		"id" : 2052,
@@ -9465,7 +9465,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:21:05"
 	},
 	{
 		"id" : 2053,
@@ -9474,7 +9474,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 11:26:27"
+		"updated_at" : "2023-06-13 13:36:47"
 	},
 	{
 		"id" : 2054,
@@ -9492,7 +9492,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 13:20:23"
 	},
 	{
 		"id" : 2056,
@@ -9501,7 +9501,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 09:55:57"
 	},
 	{
 		"id" : 2057,
@@ -9663,7 +9663,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 13:50:50"
 	},
 	{
 		"id" : 2075,
@@ -9717,7 +9717,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 14:01:27"
+		"updated_at" : "2023-06-16 13:21:38"
 	},
 	{
 		"id" : 2081,
@@ -9726,7 +9726,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 12:07:50"
 	},
 	{
 		"id" : 2082,
@@ -9798,7 +9798,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:07:09"
 	},
 	{
 		"id" : 2090,
@@ -9825,7 +9825,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:54:50"
 	},
 	{
 		"id" : 2093,
@@ -9924,7 +9924,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:07:09"
 	},
 	{
 		"id" : 2104,
@@ -10122,7 +10122,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:07:09"
 	},
 	{
 		"id" : 2126,
@@ -10194,7 +10194,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 15:47:43"
 	},
 	{
 		"id" : 2134,
@@ -10347,7 +10347,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:44:58"
 	},
 	{
 		"id" : 2151,
@@ -10419,7 +10419,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:40:11"
 	},
 	{
 		"id" : 2159,
@@ -10464,7 +10464,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 11:32:52"
 	},
 	{
 		"id" : 2164,
@@ -10599,7 +10599,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 09:51:33"
 	},
 	{
 		"id" : 2179,
@@ -10608,7 +10608,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 16:24:18"
+		"updated_at" : "2023-06-15 16:51:51"
 	},
 	{
 		"id" : 2180,
@@ -10617,7 +10617,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 15:21:26"
 	},
 	{
 		"id" : 2181,
@@ -10698,7 +10698,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-07 14:46:38"
+		"updated_at" : "2023-06-12 09:46:34"
 	},
 	{
 		"id" : 2190,
@@ -10806,7 +10806,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:43:02"
+		"updated_at" : "2023-06-14 11:39:55"
 	},
 	{
 		"id" : 2202,
@@ -10995,7 +10995,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 16:38:57"
 	},
 	{
 		"id" : 2223,
@@ -11022,7 +11022,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 12:33:00"
 	},
 	{
 		"id" : 2226,
@@ -11094,7 +11094,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 13:04:19"
+		"updated_at" : "2023-06-12 11:23:56"
 	},
 	{
 		"id" : 2234,
@@ -11103,7 +11103,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-12 11:23:56"
 	},
 	{
 		"id" : 2235,
@@ -11166,7 +11166,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 10:16:21"
 	},
 	{
 		"id" : 2242,
@@ -11175,7 +11175,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 13:10:32"
 	},
 	{
 		"id" : 2243,
@@ -11274,7 +11274,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-13 11:35:30"
 	},
 	{
 		"id" : 2254,
@@ -11283,7 +11283,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 16:59:40"
 	},
 	{
 		"id" : 2255,
@@ -11292,7 +11292,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 15:24:49"
 	},
 	{
 		"id" : 2256,
@@ -11328,7 +11328,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 16:02:34"
 	},
 	{
 		"id" : 2260,
@@ -11391,7 +11391,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 13:43:22"
 	},
 	{
 		"id" : 2267,
@@ -11454,7 +11454,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:21:05"
 	},
 	{
 		"id" : 2274,
@@ -11472,7 +11472,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 12:33:00"
 	},
 	{
 		"id" : 2276,
@@ -11481,7 +11481,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 15:24:49"
 	},
 	{
 		"id" : 2277,
@@ -11508,7 +11508,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 10:34:06"
 	},
 	{
 		"id" : 2280,
@@ -11526,7 +11526,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 13:19:25"
 	},
 	{
 		"id" : 2282,
@@ -11535,7 +11535,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 12:33:00"
 	},
 	{
 		"id" : 2283,
@@ -11544,7 +11544,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:43:02"
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2284,
@@ -11553,7 +11553,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:21:05"
 	},
 	{
 		"id" : 2285,
@@ -11562,7 +11562,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:01:02"
 	},
 	{
 		"id" : 2286,
@@ -11634,7 +11634,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 13:57:21"
+		"updated_at" : "2023-06-10 11:24:23"
 	},
 	{
 		"id" : 2294,
@@ -11652,7 +11652,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 11:41:10"
 	},
 	{
 		"id" : 2296,
@@ -11679,7 +11679,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 12:05:29"
 	},
 	{
 		"id" : 2299,
@@ -11688,7 +11688,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 16:35:43"
 	},
 	{
 		"id" : 2300,
@@ -11850,7 +11850,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:10:06"
 	},
 	{
 		"id" : 2318,
@@ -12147,7 +12147,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-14 14:02:59"
 	},
 	{
 		"id" : 2351,
@@ -12291,7 +12291,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 11:25:47"
 	},
 	{
 		"id" : 2367,
@@ -12345,7 +12345,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 08:42:33"
 	},
 	{
 		"id" : 2373,
@@ -12354,7 +12354,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-16 10:16:21"
 	},
 	{
 		"id" : 2374,
@@ -12417,7 +12417,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-11 13:29:43"
 	},
 	{
 		"id" : 2381,
@@ -12561,7 +12561,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-09 10:11:18"
 	},
 	{
 		"id" : 2397,
@@ -12741,7 +12741,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 13:02:08"
 	},
 	{
 		"id" : 2417,
@@ -12876,7 +12876,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-17 14:41:46"
 	},
 	{
 		"id" : 2432,
@@ -12939,7 +12939,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-08 13:37:27"
+		"updated_at" : "2023-06-17 15:27:15"
 	},
 	{
 		"id" : 2439,
@@ -12966,7 +12966,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-10 09:01:02"
 	},
 	{
 		"id" : 2442,
@@ -12984,7 +12984,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2444,
@@ -13002,7 +13002,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2446,
@@ -13011,7 +13011,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2447,
@@ -13020,7 +13020,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2448,
@@ -13029,7 +13029,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : "2023-06-06 18:15:29"
+		"updated_at" : "2023-06-16 18:08:35"
 	},
 	{
 		"id" : 2449,
@@ -13074,7 +13074,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2454,
@@ -13083,7 +13083,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
-		"updated_at" : null
+		"updated_at" : "2023-06-15 16:37:45"
 	},
 	{
 		"id" : 2455,
@@ -13178,7 +13178,7 @@
 	{
 		"id" : 2465,
 		"storage_id" : 1001,
-		"product_id" : 2465,
+		"product_id" : null,
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : null,
@@ -13371,7 +13371,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-05-26 19:57:47",
-		"updated_at" : "2023-05-26 19:57:47"
+		"updated_at" : "2023-06-11 12:21:05"
 	},
 	{
 		"id" : 2487,
@@ -13443,7 +13443,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-05-26 20:30:05",
-		"updated_at" : "2023-05-26 20:30:05"
+		"updated_at" : "2023-06-14 12:55:33"
 	},
 	{
 		"id" : 2495,
@@ -13497,7 +13497,7 @@
 		"stock" : 200,
 		"critical_stock" : 20,
 		"created_at" : "2023-05-28 15:13:38",
-		"updated_at" : "2023-05-28 15:13:38"
+		"updated_at" : "2023-06-11 13:44:11"
 	},
 	{
 		"id" : 2501,
@@ -13722,7 +13722,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-05-29 16:37:50",
-		"updated_at" : "2023-05-29 16:37:50"
+		"updated_at" : "2023-06-11 13:43:22"
 	},
 	{
 		"id" : 2526,
@@ -13812,7 +13812,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-05-30 16:27:03",
-		"updated_at" : "2023-05-30 16:27:03"
+		"updated_at" : "2023-06-15 10:27:45"
 	},
 	{
 		"id" : 2536,
@@ -13875,7 +13875,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 10:06:40",
-		"updated_at" : "2023-06-02 10:06:40"
+		"updated_at" : "2023-06-12 13:20:11"
 	},
 	{
 		"id" : 2543,
@@ -13902,7 +13902,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 10:33:57",
-		"updated_at" : "2023-06-02 10:33:57"
+		"updated_at" : "2023-06-11 10:24:54"
 	},
 	{
 		"id" : 2546,
@@ -13911,7 +13911,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 10:42:50",
-		"updated_at" : "2023-06-02 10:42:50"
+		"updated_at" : "2023-06-09 11:32:36"
 	},
 	{
 		"id" : 2547,
@@ -13920,7 +13920,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 10:45:30",
-		"updated_at" : "2023-06-02 10:45:30"
+		"updated_at" : "2023-06-16 10:43:35"
 	},
 	{
 		"id" : 2548,
@@ -13992,7 +13992,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 11:29:57",
-		"updated_at" : "2023-06-02 11:29:57"
+		"updated_at" : "2023-06-09 13:16:06"
 	},
 	{
 		"id" : 2556,
@@ -14019,7 +14019,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 12:22:24",
-		"updated_at" : "2023-06-02 12:22:24"
+		"updated_at" : "2023-06-18 09:50:10"
 	},
 	{
 		"id" : 2559,
@@ -14037,7 +14037,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 12:24:03",
-		"updated_at" : "2023-06-02 12:24:03"
+		"updated_at" : "2023-06-16 12:36:06"
 	},
 	{
 		"id" : 2561,
@@ -14100,7 +14100,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 13:22:20",
-		"updated_at" : "2023-06-02 13:22:20"
+		"updated_at" : "2023-06-11 10:54:50"
 	},
 	{
 		"id" : 2568,
@@ -14118,7 +14118,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 13:24:04",
-		"updated_at" : "2023-06-02 13:24:04"
+		"updated_at" : "2023-06-09 13:52:14"
 	},
 	{
 		"id" : 2570,
@@ -14127,7 +14127,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 13:24:55",
-		"updated_at" : "2023-06-02 13:24:55"
+		"updated_at" : "2023-06-14 13:23:08"
 	},
 	{
 		"id" : 2571,
@@ -14172,7 +14172,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 13:31:28",
-		"updated_at" : "2023-06-02 13:31:28"
+		"updated_at" : "2023-06-17 11:01:13"
 	},
 	{
 		"id" : 2576,
@@ -14271,7 +14271,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 14:04:00",
-		"updated_at" : "2023-06-02 14:04:00"
+		"updated_at" : "2023-06-12 17:44:47"
 	},
 	{
 		"id" : 2587,
@@ -14298,7 +14298,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 14:08:52",
-		"updated_at" : "2023-06-02 14:08:52"
+		"updated_at" : "2023-06-09 10:29:40"
 	},
 	{
 		"id" : 2590,
@@ -14415,7 +14415,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-02 14:36:16",
-		"updated_at" : "2023-06-02 14:36:16"
+		"updated_at" : "2023-06-17 15:27:15"
 	},
 	{
 		"id" : 2603,
@@ -14577,7 +14577,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-05 14:40:35",
-		"updated_at" : "2023-06-05 14:40:35"
+		"updated_at" : "2023-06-15 10:46:59"
 	},
 	{
 		"id" : 2621,
@@ -14649,7 +14649,7 @@
 		"stock" : 0,
 		"critical_stock" : 0,
 		"created_at" : "2023-06-07 13:11:31",
-		"updated_at" : "2023-06-07 13:11:31"
+		"updated_at" : "2023-06-14 12:55:33"
 	},
 	{
 		"id" : 2629,
@@ -14749,5 +14749,1400 @@
 		"critical_stock" : 0,
 		"created_at" : "2023-06-08 14:50:52",
 		"updated_at" : "2023-06-08 14:50:52"
+	},
+	{
+		"id" : 2640,
+		"storage_id" : 1001,
+		"product_id" : 2647,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-09 10:00:58",
+		"updated_at" : "2023-06-09 10:00:58"
+	},
+	{
+		"id" : 2641,
+		"storage_id" : 1001,
+		"product_id" : 2648,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-09 13:24:41",
+		"updated_at" : "2023-06-09 13:24:41"
+	},
+	{
+		"id" : 2642,
+		"storage_id" : 1001,
+		"product_id" : 2649,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-09 13:28:28",
+		"updated_at" : "2023-06-09 13:28:28"
+	},
+	{
+		"id" : 2643,
+		"storage_id" : 1001,
+		"product_id" : 2650,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-12 09:40:22",
+		"updated_at" : "2023-06-12 09:40:22"
+	},
+	{
+		"id" : 2644,
+		"storage_id" : 1001,
+		"product_id" : 2651,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-12 09:51:09",
+		"updated_at" : "2023-06-12 09:51:09"
+	},
+	{
+		"id" : 2645,
+		"storage_id" : 1001,
+		"product_id" : 2652,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 10:49:53",
+		"updated_at" : "2023-06-15 16:37:45"
+	},
+	{
+		"id" : 2646,
+		"storage_id" : 1001,
+		"product_id" : 2653,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 10:55:18",
+		"updated_at" : "2023-06-13 10:55:18"
+	},
+	{
+		"id" : 2647,
+		"storage_id" : 1001,
+		"product_id" : 2654,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:01:39",
+		"updated_at" : "2023-06-13 11:01:39"
+	},
+	{
+		"id" : 2648,
+		"storage_id" : 1001,
+		"product_id" : 2655,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:05:52",
+		"updated_at" : "2023-06-13 11:05:52"
+	},
+	{
+		"id" : 2649,
+		"storage_id" : 1001,
+		"product_id" : 2656,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:10:28",
+		"updated_at" : "2023-06-13 11:10:28"
+	},
+	{
+		"id" : 2650,
+		"storage_id" : 1001,
+		"product_id" : 2657,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:11:09",
+		"updated_at" : "2023-06-13 11:11:09"
+	},
+	{
+		"id" : 2651,
+		"storage_id" : 1001,
+		"product_id" : 2658,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:14:27",
+		"updated_at" : "2023-06-13 11:14:27"
+	},
+	{
+		"id" : 2652,
+		"storage_id" : 1001,
+		"product_id" : 2659,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:16:58",
+		"updated_at" : "2023-06-13 11:16:58"
+	},
+	{
+		"id" : 2653,
+		"storage_id" : 1001,
+		"product_id" : 2660,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:40:22",
+		"updated_at" : "2023-06-13 11:40:22"
+	},
+	{
+		"id" : 2654,
+		"storage_id" : 1001,
+		"product_id" : 2661,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 11:42:40",
+		"updated_at" : "2023-06-13 11:42:40"
+	},
+	{
+		"id" : 2655,
+		"storage_id" : 1001,
+		"product_id" : 2662,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:25:49",
+		"updated_at" : "2023-06-13 12:25:49"
+	},
+	{
+		"id" : 2656,
+		"storage_id" : 1001,
+		"product_id" : 2663,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:27:02",
+		"updated_at" : "2023-06-13 12:27:02"
+	},
+	{
+		"id" : 2657,
+		"storage_id" : 1001,
+		"product_id" : 2664,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:27:48",
+		"updated_at" : "2023-06-13 12:27:48"
+	},
+	{
+		"id" : 2658,
+		"storage_id" : 1001,
+		"product_id" : 2665,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:28:46",
+		"updated_at" : "2023-06-13 12:28:46"
+	},
+	{
+		"id" : 2659,
+		"storage_id" : 1001,
+		"product_id" : 2666,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:30:02",
+		"updated_at" : "2023-06-13 12:30:02"
+	},
+	{
+		"id" : 2660,
+		"storage_id" : 1001,
+		"product_id" : 2667,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:31:03",
+		"updated_at" : "2023-06-13 12:31:03"
+	},
+	{
+		"id" : 2661,
+		"storage_id" : 1001,
+		"product_id" : 2668,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:32:09",
+		"updated_at" : "2023-06-13 12:32:09"
+	},
+	{
+		"id" : 2662,
+		"storage_id" : 1001,
+		"product_id" : 2669,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:34:25",
+		"updated_at" : "2023-06-13 12:34:25"
+	},
+	{
+		"id" : 2663,
+		"storage_id" : 1001,
+		"product_id" : 2670,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:35:18",
+		"updated_at" : "2023-06-13 12:35:18"
+	},
+	{
+		"id" : 2664,
+		"storage_id" : 1001,
+		"product_id" : 2671,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 12:57:32",
+		"updated_at" : "2023-06-13 12:57:32"
+	},
+	{
+		"id" : 2665,
+		"storage_id" : 1001,
+		"product_id" : 2672,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:07:06",
+		"updated_at" : "2023-06-13 13:07:06"
+	},
+	{
+		"id" : 2666,
+		"storage_id" : 1001,
+		"product_id" : 2673,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:07:44",
+		"updated_at" : "2023-06-16 16:13:48"
+	},
+	{
+		"id" : 2667,
+		"storage_id" : 1001,
+		"product_id" : 2674,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:09:26",
+		"updated_at" : "2023-06-13 13:09:26"
+	},
+	{
+		"id" : 2668,
+		"storage_id" : 1001,
+		"product_id" : 2675,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:23:18",
+		"updated_at" : "2023-06-13 13:23:18"
+	},
+	{
+		"id" : 2669,
+		"storage_id" : 1001,
+		"product_id" : 2676,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:24:05",
+		"updated_at" : "2023-06-16 13:41:33"
+	},
+	{
+		"id" : 2670,
+		"storage_id" : 1001,
+		"product_id" : 2677,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:30:03",
+		"updated_at" : "2023-06-13 13:30:03"
+	},
+	{
+		"id" : 2671,
+		"storage_id" : 1001,
+		"product_id" : 2678,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 13:47:07",
+		"updated_at" : "2023-06-13 13:47:07"
+	},
+	{
+		"id" : 2672,
+		"storage_id" : 1001,
+		"product_id" : 2679,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 14:00:59",
+		"updated_at" : "2023-06-13 14:00:59"
+	},
+	{
+		"id" : 2673,
+		"storage_id" : 1001,
+		"product_id" : 2680,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 14:08:42",
+		"updated_at" : "2023-06-13 14:08:42"
+	},
+	{
+		"id" : 2674,
+		"storage_id" : 1001,
+		"product_id" : null,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 14:15:59",
+		"updated_at" : "2023-06-13 14:15:59"
+	},
+	{
+		"id" : 2675,
+		"storage_id" : 1001,
+		"product_id" : 2682,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 14:23:23",
+		"updated_at" : "2023-06-13 14:23:23"
+	},
+	{
+		"id" : 2676,
+		"storage_id" : 1001,
+		"product_id" : 2683,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 14:24:03",
+		"updated_at" : "2023-06-13 14:24:03"
+	},
+	{
+		"id" : 2677,
+		"storage_id" : 1001,
+		"product_id" : 2684,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-13 14:24:32",
+		"updated_at" : "2023-06-13 14:24:32"
+	},
+	{
+		"id" : 2678,
+		"storage_id" : 1001,
+		"product_id" : 2685,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 09:55:09",
+		"updated_at" : "2023-06-14 09:55:09"
+	},
+	{
+		"id" : 2679,
+		"storage_id" : 1001,
+		"product_id" : 2686,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 10:36:43",
+		"updated_at" : "2023-06-14 10:36:43"
+	},
+	{
+		"id" : 2680,
+		"storage_id" : 1001,
+		"product_id" : 2687,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 11:04:25",
+		"updated_at" : "2023-06-14 11:04:25"
+	},
+	{
+		"id" : 2681,
+		"storage_id" : 1001,
+		"product_id" : 2688,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 12:59:35",
+		"updated_at" : "2023-06-14 12:59:35"
+	},
+	{
+		"id" : 2682,
+		"storage_id" : 1001,
+		"product_id" : 2689,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 13:09:21",
+		"updated_at" : "2023-06-14 13:09:21"
+	},
+	{
+		"id" : 2683,
+		"storage_id" : 1001,
+		"product_id" : 2690,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 13:34:02",
+		"updated_at" : "2023-06-14 13:34:02"
+	},
+	{
+		"id" : 2684,
+		"storage_id" : 1001,
+		"product_id" : 2691,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 13:38:18",
+		"updated_at" : "2023-06-14 13:38:18"
+	},
+	{
+		"id" : 2685,
+		"storage_id" : 1001,
+		"product_id" : 2692,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 13:56:48",
+		"updated_at" : "2023-06-16 11:55:16"
+	},
+	{
+		"id" : 2686,
+		"storage_id" : 1001,
+		"product_id" : 2693,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 15:16:20",
+		"updated_at" : "2023-06-14 15:16:20"
+	},
+	{
+		"id" : 2687,
+		"storage_id" : 1001,
+		"product_id" : 2694,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 15:33:29",
+		"updated_at" : "2023-06-14 15:33:29"
+	},
+	{
+		"id" : 2688,
+		"storage_id" : 1001,
+		"product_id" : null,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 15:37:33",
+		"updated_at" : "2023-06-14 15:37:33"
+	},
+	{
+		"id" : 2689,
+		"storage_id" : 1001,
+		"product_id" : 2696,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 15:53:56",
+		"updated_at" : "2023-06-14 15:53:56"
+	},
+	{
+		"id" : 2690,
+		"storage_id" : 1001,
+		"product_id" : 2697,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 15:57:49",
+		"updated_at" : "2023-06-14 15:57:49"
+	},
+	{
+		"id" : 2691,
+		"storage_id" : 1001,
+		"product_id" : 2698,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-14 16:18:46",
+		"updated_at" : "2023-06-14 16:18:46"
+	},
+	{
+		"id" : 2692,
+		"storage_id" : 1001,
+		"product_id" : 2699,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 09:14:52",
+		"updated_at" : "2023-06-15 09:14:52"
+	},
+	{
+		"id" : 2693,
+		"storage_id" : 1001,
+		"product_id" : 2700,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 09:15:44",
+		"updated_at" : "2023-06-15 09:15:44"
+	},
+	{
+		"id" : 2694,
+		"storage_id" : 1001,
+		"product_id" : 2701,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 09:16:45",
+		"updated_at" : "2023-06-15 09:16:45"
+	},
+	{
+		"id" : 2695,
+		"storage_id" : 1001,
+		"product_id" : 2702,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:07:08",
+		"updated_at" : "2023-06-15 10:07:08"
+	},
+	{
+		"id" : 2696,
+		"storage_id" : 1001,
+		"product_id" : 2703,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:08:46",
+		"updated_at" : "2023-06-15 10:08:46"
+	},
+	{
+		"id" : 2697,
+		"storage_id" : 1001,
+		"product_id" : 2704,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:10:29",
+		"updated_at" : "2023-06-15 10:10:29"
+	},
+	{
+		"id" : 2698,
+		"storage_id" : 1001,
+		"product_id" : 2705,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:11:48",
+		"updated_at" : "2023-06-15 10:11:48"
+	},
+	{
+		"id" : 2699,
+		"storage_id" : 1001,
+		"product_id" : 2706,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:13:41",
+		"updated_at" : "2023-06-15 10:13:41"
+	},
+	{
+		"id" : 2700,
+		"storage_id" : 1001,
+		"product_id" : 2707,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:15:10",
+		"updated_at" : "2023-06-15 10:15:10"
+	},
+	{
+		"id" : 2701,
+		"storage_id" : 1001,
+		"product_id" : 2708,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:20:52",
+		"updated_at" : "2023-06-15 10:20:52"
+	},
+	{
+		"id" : 2702,
+		"storage_id" : 1001,
+		"product_id" : 2709,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:25:33",
+		"updated_at" : "2023-06-15 10:25:33"
+	},
+	{
+		"id" : 2703,
+		"storage_id" : 1001,
+		"product_id" : 2710,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:27:49",
+		"updated_at" : "2023-06-15 10:27:49"
+	},
+	{
+		"id" : 2704,
+		"storage_id" : 1001,
+		"product_id" : 2711,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:31:47",
+		"updated_at" : "2023-06-15 10:31:47"
+	},
+	{
+		"id" : 2705,
+		"storage_id" : 1001,
+		"product_id" : 2712,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:47:50",
+		"updated_at" : "2023-06-15 10:47:50"
+	},
+	{
+		"id" : 2706,
+		"storage_id" : 1001,
+		"product_id" : 2713,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:51:16",
+		"updated_at" : "2023-06-15 10:51:16"
+	},
+	{
+		"id" : 2707,
+		"storage_id" : 1001,
+		"product_id" : 2714,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 10:59:32",
+		"updated_at" : "2023-06-15 10:59:32"
+	},
+	{
+		"id" : 2708,
+		"storage_id" : 1001,
+		"product_id" : 2715,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 11:14:11",
+		"updated_at" : "2023-06-15 11:14:11"
+	},
+	{
+		"id" : 2709,
+		"storage_id" : 1001,
+		"product_id" : 2716,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 11:14:52",
+		"updated_at" : "2023-06-15 11:14:52"
+	},
+	{
+		"id" : 2710,
+		"storage_id" : 1001,
+		"product_id" : 2717,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:27:35",
+		"updated_at" : "2023-06-15 13:27:35"
+	},
+	{
+		"id" : 2711,
+		"storage_id" : 1001,
+		"product_id" : 2718,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:28:16",
+		"updated_at" : "2023-06-15 13:28:16"
+	},
+	{
+		"id" : 2712,
+		"storage_id" : 1001,
+		"product_id" : 2719,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:29:06",
+		"updated_at" : "2023-06-15 13:29:06"
+	},
+	{
+		"id" : 2713,
+		"storage_id" : 1001,
+		"product_id" : 2720,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:30:25",
+		"updated_at" : "2023-06-15 13:30:25"
+	},
+	{
+		"id" : 2714,
+		"storage_id" : 1001,
+		"product_id" : 2721,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:31:04",
+		"updated_at" : "2023-06-15 13:31:04"
+	},
+	{
+		"id" : 2715,
+		"storage_id" : 1001,
+		"product_id" : 2722,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:32:59",
+		"updated_at" : "2023-06-15 13:32:59"
+	},
+	{
+		"id" : 2716,
+		"storage_id" : 1001,
+		"product_id" : 2723,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:33:41",
+		"updated_at" : "2023-06-15 13:33:41"
+	},
+	{
+		"id" : 2717,
+		"storage_id" : 1001,
+		"product_id" : 2724,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:34:30",
+		"updated_at" : "2023-06-15 13:34:30"
+	},
+	{
+		"id" : 2718,
+		"storage_id" : 1001,
+		"product_id" : 2725,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:35:26",
+		"updated_at" : "2023-06-15 13:35:26"
+	},
+	{
+		"id" : 2719,
+		"storage_id" : 1001,
+		"product_id" : 2726,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:36:06",
+		"updated_at" : "2023-06-15 13:36:06"
+	},
+	{
+		"id" : 2720,
+		"storage_id" : 1001,
+		"product_id" : 2727,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:36:47",
+		"updated_at" : "2023-06-15 13:36:47"
+	},
+	{
+		"id" : 2721,
+		"storage_id" : 1001,
+		"product_id" : 2728,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 13:59:43",
+		"updated_at" : "2023-06-15 13:59:43"
+	},
+	{
+		"id" : 2722,
+		"storage_id" : 1001,
+		"product_id" : 2729,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 14:02:59",
+		"updated_at" : "2023-06-15 14:02:59"
+	},
+	{
+		"id" : 2723,
+		"storage_id" : 1001,
+		"product_id" : 2730,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 14:28:38",
+		"updated_at" : "2023-06-15 14:28:38"
+	},
+	{
+		"id" : 2724,
+		"storage_id" : 1001,
+		"product_id" : 2731,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 14:39:45",
+		"updated_at" : "2023-06-15 14:39:45"
+	},
+	{
+		"id" : 2725,
+		"storage_id" : 1001,
+		"product_id" : 2732,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 14:40:24",
+		"updated_at" : "2023-06-15 14:40:24"
+	},
+	{
+		"id" : 2726,
+		"storage_id" : 1001,
+		"product_id" : 2733,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 15:19:28",
+		"updated_at" : "2023-06-15 15:19:28"
+	},
+	{
+		"id" : 2727,
+		"storage_id" : 1001,
+		"product_id" : 2734,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 15:29:07",
+		"updated_at" : "2023-06-15 15:29:07"
+	},
+	{
+		"id" : 2728,
+		"storage_id" : 1001,
+		"product_id" : 2735,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-15 15:41:58",
+		"updated_at" : "2023-06-15 15:41:58"
+	},
+	{
+		"id" : 2729,
+		"storage_id" : 1001,
+		"product_id" : 2736,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:03:39",
+		"updated_at" : "2023-06-16 13:03:39"
+	},
+	{
+		"id" : 2730,
+		"storage_id" : 1001,
+		"product_id" : 2737,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:04:56",
+		"updated_at" : "2023-06-16 13:04:56"
+	},
+	{
+		"id" : 2731,
+		"storage_id" : 1001,
+		"product_id" : 2738,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:05:41",
+		"updated_at" : "2023-06-16 13:05:41"
+	},
+	{
+		"id" : 2732,
+		"storage_id" : 1001,
+		"product_id" : 2739,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:06:31",
+		"updated_at" : "2023-06-16 13:06:31"
+	},
+	{
+		"id" : 2733,
+		"storage_id" : 1001,
+		"product_id" : 2740,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:06:59",
+		"updated_at" : "2023-06-16 13:06:59"
+	},
+	{
+		"id" : 2734,
+		"storage_id" : 1001,
+		"product_id" : 2741,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:07:42",
+		"updated_at" : "2023-06-16 13:07:42"
+	},
+	{
+		"id" : 2735,
+		"storage_id" : 1001,
+		"product_id" : 2742,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:08:20",
+		"updated_at" : "2023-06-16 13:08:20"
+	},
+	{
+		"id" : 2736,
+		"storage_id" : 1001,
+		"product_id" : 2743,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:13:09",
+		"updated_at" : "2023-06-16 13:13:09"
+	},
+	{
+		"id" : 2737,
+		"storage_id" : 1001,
+		"product_id" : 2744,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:13:48",
+		"updated_at" : "2023-06-16 13:13:48"
+	},
+	{
+		"id" : 2738,
+		"storage_id" : 1001,
+		"product_id" : 2745,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:14:22",
+		"updated_at" : "2023-06-16 13:14:22"
+	},
+	{
+		"id" : 2739,
+		"storage_id" : 1001,
+		"product_id" : 2746,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:23:18",
+		"updated_at" : "2023-06-16 13:23:18"
+	},
+	{
+		"id" : 2740,
+		"storage_id" : 1001,
+		"product_id" : 2747,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:24:19",
+		"updated_at" : "2023-06-16 13:24:19"
+	},
+	{
+		"id" : 2741,
+		"storage_id" : 1001,
+		"product_id" : 2748,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:24:54",
+		"updated_at" : "2023-06-16 13:24:54"
+	},
+	{
+		"id" : 2742,
+		"storage_id" : 1001,
+		"product_id" : 2749,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:25:33",
+		"updated_at" : "2023-06-16 13:25:33"
+	},
+	{
+		"id" : 2743,
+		"storage_id" : 1001,
+		"product_id" : 2750,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:26:05",
+		"updated_at" : "2023-06-16 13:26:05"
+	},
+	{
+		"id" : 2744,
+		"storage_id" : 1001,
+		"product_id" : 2751,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:26:38",
+		"updated_at" : "2023-06-16 13:26:38"
+	},
+	{
+		"id" : 2745,
+		"storage_id" : 1001,
+		"product_id" : 2752,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 13:27:30",
+		"updated_at" : "2023-06-16 13:27:30"
+	},
+	{
+		"id" : 2746,
+		"storage_id" : 1001,
+		"product_id" : 2753,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 14:47:43",
+		"updated_at" : "2023-06-16 14:47:43"
+	},
+	{
+		"id" : 2747,
+		"storage_id" : 1001,
+		"product_id" : 2754,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 15:08:12",
+		"updated_at" : "2023-06-16 15:08:12"
+	},
+	{
+		"id" : 2748,
+		"storage_id" : 1001,
+		"product_id" : 2755,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-16 16:09:26",
+		"updated_at" : "2023-06-16 16:09:26"
+	},
+	{
+		"id" : 2749,
+		"storage_id" : 1001,
+		"product_id" : 2756,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-19 10:00:42",
+		"updated_at" : "2023-06-19 10:00:42"
+	},
+	{
+		"id" : 2750,
+		"storage_id" : 1001,
+		"product_id" : 2757,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-19 10:01:39",
+		"updated_at" : "2023-06-19 10:01:39"
+	},
+	{
+		"id" : 2751,
+		"storage_id" : 1001,
+		"product_id" : 2758,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-19 11:13:39",
+		"updated_at" : "2023-06-19 11:13:39"
+	},
+	{
+		"id" : 2752,
+		"storage_id" : 1001,
+		"product_id" : 2759,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-19 11:14:23",
+		"updated_at" : "2023-06-19 11:14:23"
+	},
+	{
+		"id" : 2753,
+		"storage_id" : 1001,
+		"product_id" : 2760,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-19 11:15:04",
+		"updated_at" : "2023-06-19 11:15:04"
+	},
+	{
+		"id" : 2754,
+		"storage_id" : 1001,
+		"product_id" : 2761,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-19 11:15:47",
+		"updated_at" : "2023-06-19 11:15:47"
+	},
+	{
+		"id" : 2755,
+		"storage_id" : 1001,
+		"product_id" : 2762,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-20 11:35:23",
+		"updated_at" : "2023-06-20 11:35:23"
+	},
+	{
+		"id" : 2756,
+		"storage_id" : 1001,
+		"product_id" : 2763,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-20 23:26:19",
+		"updated_at" : "2023-06-20 23:26:19"
+	},
+	{
+		"id" : 2757,
+		"storage_id" : 1001,
+		"product_id" : 2764,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-20 23:31:04",
+		"updated_at" : "2023-06-20 23:31:04"
+	},
+	{
+		"id" : 2758,
+		"storage_id" : 1001,
+		"product_id" : 2765,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-20 23:33:35",
+		"updated_at" : "2023-06-20 23:33:35"
+	},
+	{
+		"id" : 2759,
+		"storage_id" : 1001,
+		"product_id" : 2766,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-20 23:40:27",
+		"updated_at" : "2023-06-20 23:40:27"
+	},
+	{
+		"id" : 2760,
+		"storage_id" : 1001,
+		"product_id" : 2767,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 11:04:03",
+		"updated_at" : "2023-06-22 11:04:03"
+	},
+	{
+		"id" : 2761,
+		"storage_id" : 1001,
+		"product_id" : 2768,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 11:09:39",
+		"updated_at" : "2023-06-22 11:09:39"
+	},
+	{
+		"id" : 2762,
+		"storage_id" : 1001,
+		"product_id" : 2769,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 11:10:06",
+		"updated_at" : "2023-06-22 11:10:06"
+	},
+	{
+		"id" : 2763,
+		"storage_id" : 1001,
+		"product_id" : 2770,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:07:46",
+		"updated_at" : "2023-06-22 12:07:46"
+	},
+	{
+		"id" : 2764,
+		"storage_id" : 1001,
+		"product_id" : 2771,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:09:24",
+		"updated_at" : "2023-06-22 12:09:24"
+	},
+	{
+		"id" : 2765,
+		"storage_id" : 1001,
+		"product_id" : 2772,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:13:49",
+		"updated_at" : "2023-06-22 12:13:49"
+	},
+	{
+		"id" : 2766,
+		"storage_id" : 1001,
+		"product_id" : 2773,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:14:36",
+		"updated_at" : "2023-06-22 12:14:36"
+	},
+	{
+		"id" : 2767,
+		"storage_id" : 1001,
+		"product_id" : 2774,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:15:16",
+		"updated_at" : "2023-06-22 12:15:16"
+	},
+	{
+		"id" : 2768,
+		"storage_id" : 1001,
+		"product_id" : 2775,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:16:17",
+		"updated_at" : "2023-06-22 12:16:17"
+	},
+	{
+		"id" : 2769,
+		"storage_id" : 1001,
+		"product_id" : 2776,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:17:02",
+		"updated_at" : "2023-06-22 12:17:02"
+	},
+	{
+		"id" : 2770,
+		"storage_id" : 1001,
+		"product_id" : 2777,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:17:42",
+		"updated_at" : "2023-06-22 12:17:42"
+	},
+	{
+		"id" : 2771,
+		"storage_id" : 1001,
+		"product_id" : 2778,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:18:19",
+		"updated_at" : "2023-06-22 12:18:19"
+	},
+	{
+		"id" : 2772,
+		"storage_id" : 1001,
+		"product_id" : 2779,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:18:55",
+		"updated_at" : "2023-06-22 12:18:55"
+	},
+	{
+		"id" : 2773,
+		"storage_id" : 1001,
+		"product_id" : 2780,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:19:37",
+		"updated_at" : "2023-06-22 12:19:37"
+	},
+	{
+		"id" : 2774,
+		"storage_id" : 1001,
+		"product_id" : 2781,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 12:20:15",
+		"updated_at" : "2023-06-22 12:20:15"
+	},
+	{
+		"id" : 2775,
+		"storage_id" : 1001,
+		"product_id" : 2782,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 14:00:31",
+		"updated_at" : "2023-06-22 14:00:31"
+	},
+	{
+		"id" : 2776,
+		"storage_id" : 1001,
+		"product_id" : 2783,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 14:09:43",
+		"updated_at" : "2023-06-22 14:09:43"
+	},
+	{
+		"id" : 2777,
+		"storage_id" : 1001,
+		"product_id" : 2784,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 14:27:23",
+		"updated_at" : "2023-06-22 14:27:23"
+	},
+	{
+		"id" : 2778,
+		"storage_id" : 1001,
+		"product_id" : 2785,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 14:54:37",
+		"updated_at" : "2023-06-22 14:54:37"
+	},
+	{
+		"id" : 2779,
+		"storage_id" : 1001,
+		"product_id" : 2786,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 15:54:52",
+		"updated_at" : "2023-06-22 15:54:52"
+	},
+	{
+		"id" : 2780,
+		"storage_id" : 1001,
+		"product_id" : 2787,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 15:55:30",
+		"updated_at" : "2023-06-22 15:55:30"
+	},
+	{
+		"id" : 2781,
+		"storage_id" : 1001,
+		"product_id" : 2788,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 15:56:08",
+		"updated_at" : "2023-06-22 15:56:08"
+	},
+	{
+		"id" : 2782,
+		"storage_id" : 1001,
+		"product_id" : 2789,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 15:56:54",
+		"updated_at" : "2023-06-22 15:56:54"
+	},
+	{
+		"id" : 2783,
+		"storage_id" : 1001,
+		"product_id" : 2790,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-22 15:58:14",
+		"updated_at" : "2023-06-22 15:58:14"
+	},
+	{
+		"id" : 2784,
+		"storage_id" : 1001,
+		"product_id" : 2791,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 09:56:22",
+		"updated_at" : "2023-06-23 09:56:22"
+	},
+	{
+		"id" : 2785,
+		"storage_id" : 1001,
+		"product_id" : 2792,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 10:13:43",
+		"updated_at" : "2023-06-23 10:13:43"
+	},
+	{
+		"id" : 2786,
+		"storage_id" : 1001,
+		"product_id" : 2793,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 10:14:26",
+		"updated_at" : "2023-06-23 10:14:26"
+	},
+	{
+		"id" : 2787,
+		"storage_id" : 1001,
+		"product_id" : 2794,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 10:18:07",
+		"updated_at" : "2023-06-23 10:18:07"
+	},
+	{
+		"id" : 2788,
+		"storage_id" : 1001,
+		"product_id" : 2795,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 10:20:51",
+		"updated_at" : "2023-06-23 10:20:51"
+	},
+	{
+		"id" : 2789,
+		"storage_id" : 1001,
+		"product_id" : 2796,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 10:23:31",
+		"updated_at" : "2023-06-23 10:23:31"
+	},
+	{
+		"id" : 2790,
+		"storage_id" : 1001,
+		"product_id" : 2797,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 13:47:19",
+		"updated_at" : "2023-06-23 13:47:19"
+	},
+	{
+		"id" : 2791,
+		"storage_id" : 1001,
+		"product_id" : 2798,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 14:04:32",
+		"updated_at" : "2023-06-23 14:04:32"
+	},
+	{
+		"id" : 2792,
+		"storage_id" : 1001,
+		"product_id" : 2799,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 14:08:52",
+		"updated_at" : "2023-06-23 14:08:52"
+	},
+	{
+		"id" : 2793,
+		"storage_id" : 1001,
+		"product_id" : 2800,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 14:12:08",
+		"updated_at" : "2023-06-23 14:12:08"
+	},
+	{
+		"id" : 2794,
+		"storage_id" : 1001,
+		"product_id" : 2801,
+		"stock" : 0,
+		"critical_stock" : 0,
+		"created_at" : "2023-06-23 14:31:22",
+		"updated_at" : "2023-06-23 14:31:22"
 	}
 ]

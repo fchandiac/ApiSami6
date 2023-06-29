@@ -244,8 +244,10 @@ module.exports = {
         },
         customer_id: {type: Sequelize.INTEGER, allowNull: true },
         amount: {type: Sequelize.INTEGER},
-        payment_method: {type: Sequelize.STRING},
-        state: {type: Sequelize.BOOLEAN},
+        payment_method: {type: Sequelize.STRING, defaultValue: ''},
+        state: {type: Sequelize.BOOLEAN, defaultValue: false},
+        paid: {type: Sequelize.INTEGER, defaultValue: 0},
+        balance: {type: Sequelize.INTEGER, defaultValue: 0},
         date: {type: Sequelize.DATE},
         created_at: {type: Sequelize.DATE},
         updated_at: {type: Sequelize.DATE}
@@ -254,6 +256,37 @@ module.exports = {
         underscored: true,
         initialAutoIncrement: 1001, 
     })
+
+    await queryInterface.createTable('partialpayments', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+      amount: { type: Sequelize.INTEGER },
+      detail: {type: Sequelize.JSON, defaultValue: []},
+      customer_id: {type: Sequelize.INTEGER, allowNull: true },
+      user_id: {
+        allowNull: true,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: 'SET NULL',
+        defaultValue: 1001,
+        references: {
+          model: 'users',
+          key: 'id'
+        }
+      },
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE }
+    },
+      {
+        underscored: true,
+        initialAutoIncrement: 1001, 
+      })
+
+
 
     await queryInterface.createTable('orders', {
       id: {

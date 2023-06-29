@@ -1,20 +1,17 @@
 const sequelize = require('sequelize')
-const {Sales} = require('../db');
-const {SalesDetails} = require('../db')
-const {Products} = require('../db')
-const {Categories} = require('../db')
-const {Prices} = require('../db')
+const {Sales, SalesDetails, Users} = require('../db');
 const moment = require('moment');
 const sales = {}
 
 
-async function create(amount, payment_method, dte_code, dte_number, stock_control){
+async function create(amount, payment_method, dte_code, dte_number, stock_control, user_id){
     const sale = await Sales.create({
         amount: amount,
         payment_method: payment_method,
         dte_code: dte_code,
         dte_number: dte_number,
-        stock_control: stock_control
+        stock_control: stock_control,
+        user_id: user_id
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
 
     return sale
@@ -29,7 +26,11 @@ async function find_all(){
 
 async function findAllBetweenDates(start, end){
     const sale = await Sales.findAll(
-        {where: {createdAt: {[sequelize.Op.between]: [start, end]}}, order: [['createdAt', 'DESC']]}
+        {
+            include: [{model: SalesDetails, model: Users}], 
+            where: {createdAt: {[sequelize.Op.between]: [start, end]}}, 
+            order: [['createdAt', 'DESC']]
+        }
     ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
     return sale
 }
@@ -37,7 +38,7 @@ async function findAllBetweenDates(start, end){
 async function findOneById(id){
     const sale = await Sales.findOne(
         {
-            include: SalesDetails,
+            include: [{model: SalesDetails, model: Users}],
             where: {id:id}
         }
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
