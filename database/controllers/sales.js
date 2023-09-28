@@ -38,11 +38,13 @@ async function findAllBetweenDates(start, end){
 async function findOneById(id){
     const sale = await Sales.findOne(
         {
-            include: [{model: SalesDetails, model: Users}],
+            include: [{model: SalesDetails}, {model: Users}],
             where: {id:id}
         }
         ).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
+        console.log(sale)
     return sale
+    
 }
 
 async function destroy(id){

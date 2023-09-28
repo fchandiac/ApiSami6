@@ -6,7 +6,7 @@ const config = require('./config/config')
 db.connection = new Sequelize(
     'sami_6',
     'root',
-    'Fenasantma', 
+    'fenasantma', 
     {host: 'localhost', dialect: "mysql", timezone: '-04:00'})
 
 db.Categories = require('./models/categories')(db.connection, DataTypes)
@@ -34,7 +34,7 @@ db.Stocks.belongsTo(db.Products)
 db.Stocks.belongsTo(db.Storages)
 db.Users.belongsTo(db.Profiles)
 db.SalesDetails.belongsTo(db.Products)
-db.SalesDetails.belongsTo(db.Sales)
+// db.SalesDetails.belongsTo(db.Sales)
 db.Sales.hasMany(db.SalesDetails)
 db.OrdersDetails.belongsTo(db.Orders)
 db.OrdersDetails.belongsTo(db.Products)

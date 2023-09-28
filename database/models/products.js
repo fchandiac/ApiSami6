@@ -12,7 +12,8 @@ module.exports = (sequelize, DataTypes) => {
     favorite: DataTypes.BOOLEAN,
     stock_control: DataTypes.BOOLEAN,
     sale: DataTypes.INTEGER,
-    purchase: DataTypes.INTEGER
+    purchase: DataTypes.INTEGER,
+    affected: DataTypes.BOOLEAN,
   }, {
     sequelize,
     modelName: 'Products',

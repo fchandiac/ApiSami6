@@ -3,14 +3,15 @@ const products = {}
 const sequelize = require('sequelize');
 const storages = require("../models/storages");
 
-async function create(name, code, sale, purchase,  category_id, tax_id ){
+async function create(name, code, sale, purchase,  category_id, tax_id, affected ){
     const product = await Products.create({
         name: name,
         code: code,
         category_id: category_id,
         tax_id: tax_id,
         sale: sale,
-        purchase: purchase
+        purchase: purchase,
+        affected: affected
     }).then(data => { return {'code': 1, 'data':data}}).catch(err => {return {'code': 0, 'data':err}})
         
     return product
