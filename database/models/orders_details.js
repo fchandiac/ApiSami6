@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     discount: DataTypes.INTEGER,
     subtotal: DataTypes.INTEGER,
     name: DataTypes.STRING,
+    affected: DataTypes.BOOLEAN,
 
   }, {
     sequelize,

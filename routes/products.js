@@ -19,7 +19,8 @@ router.post('/products/updateFull', (req, res) => {
         req.body.category_id, 
         req.body.tax_id, 
         req.body.sale, 
-        req.body.purchase
+        req.body.purchase,
+        req.body.affected
     ).then(data => {
         res.json(data)
     }).catch(err => {

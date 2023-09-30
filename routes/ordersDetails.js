@@ -10,7 +10,8 @@ router.post('/ordersDetails/create', (req, res) => {
         req.body.sale,
         req.body.discount,
         req.body.subtotal,
-        req.body.name
+        req.body.name,
+        req.body.affected
     ).then(data => {
         res.json(data)
     }).catch(err => {

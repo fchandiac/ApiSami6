@@ -328,6 +328,7 @@ module.exports = {
         sale: { type: Sequelize.INTEGER, defaultValue: 0 },
         discount: { type: Sequelize.INTEGER, defaultValue: 0 },
         subtotal: { type: Sequelize.INTEGER, defaultValue: 0 },
+        affected: { type: Sequelize.BOOLEAN, defaultValue: true },
         created_at: { type: Sequelize.DATE },
         updated_at: { type: Sequelize.DATE }
       },
