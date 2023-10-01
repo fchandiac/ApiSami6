@@ -11,3 +11,4 @@ prompt: Node script path: [/path/to/.js file]
 To uninstall:
 
 qckwinsvc --uninstall
+-...
