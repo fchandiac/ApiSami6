@@ -225,37 +225,37 @@ module.exports = {
         initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
       })
 
-      await queryInterface.createTable('pays', {
-        id: {
-          allowNull: false,
-          autoIncrement: true,
-          primaryKey: true,
-          type: Sequelize.INTEGER
-        },
-        sale_id: {
-          allowNull: false,
-          unique: false,
-          type: Sequelize.INTEGER,
-          onDelete: 'CASCADE',
-          references: {
-            model: 'sales',
-            key: 'id'
-          }
-        },
-        customer_id: {type: Sequelize.INTEGER, allowNull: true },
-        amount: {type: Sequelize.INTEGER},
-        payment_method: {type: Sequelize.STRING, defaultValue: ''},
-        state: {type: Sequelize.BOOLEAN, defaultValue: false},
-        paid: {type: Sequelize.INTEGER, defaultValue: 0},
-        balance: {type: Sequelize.INTEGER, defaultValue: 0},
-        date: {type: Sequelize.DATE},
-        created_at: {type: Sequelize.DATE},
-        updated_at: {type: Sequelize.DATE}
+    await queryInterface.createTable('pays', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
       },
+      sale_id: {
+        allowNull: false,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'sales',
+          key: 'id'
+        }
+      },
+      customer_id: { type: Sequelize.INTEGER, allowNull: true },
+      amount: { type: Sequelize.INTEGER },
+      payment_method: { type: Sequelize.STRING, defaultValue: '' },
+      state: { type: Sequelize.BOOLEAN, defaultValue: false },
+      paid: { type: Sequelize.INTEGER, defaultValue: 0 },
+      balance: { type: Sequelize.INTEGER, defaultValue: 0 },
+      date: { type: Sequelize.DATE },
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE }
+    },
       {
         underscored: true,
-        initialAutoIncrement: 1001, 
-    })
+        initialAutoIncrement: 1001,
+      })
 
     await queryInterface.createTable('partialpayments', {
       id: {
@@ -265,8 +265,8 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       amount: { type: Sequelize.INTEGER },
-      detail: {type: Sequelize.JSON, defaultValue: []},
-      customer_id: {type: Sequelize.INTEGER, allowNull: true },
+      detail: { type: Sequelize.JSON, defaultValue: [] },
+      customer_id: { type: Sequelize.INTEGER, allowNull: true },
       user_id: {
         allowNull: true,
         unique: false,
@@ -283,7 +283,7 @@ module.exports = {
     },
       {
         underscored: true,
-        initialAutoIncrement: 1001, 
+        initialAutoIncrement: 1001,
       })
 
 
@@ -302,197 +302,72 @@ module.exports = {
     },
       {
         underscored: true,
-        initialAutoIncrement: 1001, 
+        initialAutoIncrement: 1001,
       })
 
-      await queryInterface.createTable('ordersdetails', {
-        id: {
-          allowNull: false,
-          autoIncrement: true,
-          primaryKey: true,
-          type: Sequelize.INTEGER
-        },
-        order_id: {
-          allowNull: false,
-          unique: false,
-          type: Sequelize.INTEGER,
-          onDelete: 'CASCADE',
-          references: {
-            model: 'orders',
-            key: 'id'
-          }
-        },
-        product_id: { type: Sequelize.INTEGER, defaultValue: 0 },
-        name: { type: Sequelize.STRING, defaultValue: '' },
-        quanty: { type: Sequelize.FLOAT },
-        sale: { type: Sequelize.INTEGER, defaultValue: 0 },
-        discount: { type: Sequelize.INTEGER, defaultValue: 0 },
-        subtotal: { type: Sequelize.INTEGER, defaultValue: 0 },
-        affected: { type: Sequelize.BOOLEAN, defaultValue: true },
-        created_at: { type: Sequelize.DATE },
-        updated_at: { type: Sequelize.DATE }
+    await queryInterface.createTable('ordersdetails', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
       },
-        {
-          underscored: true,
-          initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
-        })
-  
+      order_id: {
+        allowNull: false,
+        unique: false,
+        type: Sequelize.INTEGER,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'orders',
+          key: 'id'
+        }
+      },
+      product_id: { type: Sequelize.INTEGER, defaultValue: 0 },
+      name: { type: Sequelize.STRING, defaultValue: '' },
+      quanty: { type: Sequelize.FLOAT },
+      sale: { type: Sequelize.INTEGER, defaultValue: 0 },
+      discount: { type: Sequelize.INTEGER, defaultValue: 0 },
+      subtotal: { type: Sequelize.INTEGER, defaultValue: 0 },
+      affected: { type: Sequelize.BOOLEAN, defaultValue: true },
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE }
+    },
+      {
+        underscored: true,
+        initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
+      })
 
-    // await queryInterface.createTable('stocks', {
-    //   id: {
-    //     allowNull: false,
-    //     autoIncrement: true,
-    //     primaryKey: true,
-    //     type: Sequelize.INTEGER
-    //   },
-    //   product_id: {
-    //     allowNull: false,
-    //     unique: true,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'products',
-    //       key: 'id'
-    //     }
-    //   },
-    //   room: { type: Sequelize.INTEGER, default: 0 },
-    //   warehouse: { type: Sequelize.INTEGER, default: 0 },
-    //   created_at: { type: Sequelize.DATE },
-    //   updated_at: { type: Sequelize.DATE }
-    // },
-    //   {
-    //     underscored: true,
-    //     initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
-    //   })
+    await queryInterface.createTable('records', 
+    {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+      table: { type: Sequelize.STRING, defaultValue: '' },
+      acction: { type: Sequelize.STRING, defaultValue: '' },
+      description: { type: Sequelize.STRING, defaultValue: '' },
+      created_at: { type: Sequelize.DATE },
+      updated_at: { type: Sequelize.DATE },
+    },
+      {
+        underscored: true,
+        initialAutoIncrement: 1001,
+      }
+  )
 
-    // await queryInterface.createTable('salesdetails', {
-    //   id: {
-    //     allowNull: false,
-    //     autoIncrement: true,
-    //     primaryKey: true,
-    //     type: Sequelize.INTEGER
-    //   },
-    //   sale_id: {
-    //     allowNull: false,
-    //     unique: false,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'sales',
-    //       key: 'id'
-    //     }
-    //   },
-    //   price_id: {
-    //     allowNull: false,
-    //     unique: false,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'prices',
-    //       key: 'id'
-    //     }
-    //   },
-    //   product_id: {
-    //     allowNull: false,
-    //     unique: false,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'products',
-    //       key: 'id'
-    //     }
-    //   },
-    //   category_id: {
-    //     allowNull: false,
-    //     unique: false,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'categories',
-    //       key: 'id'
-    //     }
-    //   },
-    //   quanty: { type: Sequelize.FLOAT },
-    //   subtotal: { type: Sequelize.INTEGER },
-    //   created_at: { type: Sequelize.DATE },
-    //   updated_at: { type: Sequelize.DATE }
-    // },
-    //   {
-    //     underscored: true,
-    //     initialAutoIncrement: 1001, // Aparentemente solo funciona para mysql
-    //   })
+  // await queryInterface.createTable('deliveries', {})
 
 
 
-   
-
-    // await queryInterface.createTable('deliveries', {
-    //   id: {
-    //     allowNull: false,
-    //     autoIncrement: true,
-    //     primaryKey: true,
-    //     type: Sequelize.INTEGER
-    //   },
-    //   order_id: {
-    //     allowNull: false,
-    //     unique: true,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'orders',
-    //       key: 'id'
-    //   }},
-    //   phone: {type: Sequelize.STRING},
-    //   transfer: {type: Sequelize.BOOLEAN},
-    //   address: {type: Sequelize.STRING},
-    //   created_at: {type: Sequelize.DATE},
-    //   updated_at: {type: Sequelize.DATE}
-    // }),
-
-    // await queryInterface.createTable('ordersdetails', {
-    //   id: {
-    //     allowNull: false,
-    //     autoIncrement: true,
-    //     primaryKey: true,
-    //     type: Sequelize.INTEGER
-    //   },
-    //   order_id: {
-    //     allowNull: false,
-    //     unique: false,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'orders',
-    //       key: 'id'
-    //     }
-    //   },
-    //   product_id: {
-    //     allowNull: false,
-    //     unique: false,
-    //     type: Sequelize.INTEGER,
-    //     onDelete: 'CASCADE',
-    //     references: {
-    //       model: 'products',
-    //       key: 'id'
-    //     }
-    //   },
-    //   quanty: { type: Sequelize.FLOAT },
-    //   created_at: { type: Sequelize.DATE },
-    //   updated_at: { type: Sequelize.DATE }
-    // },
-
-    //   {
-    //     underscored: true,
-    //     initialAutoIncrement: 1001, 
-    //   })
 
 
 
-  },
 
-  ///Clients
+},
 
-  //res.id, res.name, price, quanty, subtotal, tax_id
+
   down: async (queryInterface, Sequelize) => {
     await queryInterface.dropAllTables()
   }

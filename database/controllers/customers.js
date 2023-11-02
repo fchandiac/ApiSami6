@@ -1,4 +1,4 @@
-const { Customers } = require("../db");
+const { Customers, Pays } = require("../db");
 const customers = {}
 
 async function create(rut, name, activity, district, city, address) {
@@ -16,7 +16,9 @@ async function create(rut, name, activity, district, city, address) {
 }
 
 async function findAll() {
-    const customers = await Customers.findAll().then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    const customers = await Customers.findAll({
+        include: {model: Pays}
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return customers
 
 }
@@ -41,7 +43,10 @@ async function findOneByRut(rut) {
 }
 
 async function findOneById(id) {
-    const customer = await Customers.findOne({ where: { id: id } }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
+    const customer = await Customers.findOne({ 
+        include: {model: Pays},
+        where: { id: id } 
+    }).then(data => { return { 'code': 1, 'data': data } }).catch(err => { return { 'code': 0, 'data': err } })
     return customer
 }
 

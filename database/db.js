@@ -4,7 +4,7 @@ const db = {};
 const config = require('./config/config')
 
 db.connection = new Sequelize(
-    'sami_6',
+    'sami_tr',
     'root',
     'fenasantma', 
     {host: 'localhost', dialect: "mysql", timezone: '-04:00'})
@@ -41,6 +41,7 @@ db.OrdersDetails.belongsTo(db.Products)
 db.Orders.hasMany(db.OrdersDetails)
 db.Users.belongsTo(db.Profiles)
 db.Sales.belongsTo(db.Users)
+db.Customers.hasMany(db.Pays)
 // db.Users.hasMany(db.Sales)
 
 // db.Deliveries.belongsTo(db.Orders)
