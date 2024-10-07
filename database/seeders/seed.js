@@ -1,6 +1,6 @@
 'use strict';
 
-
+//SIMPLE CONFIGURATION
 module.exports = {
     async up(queryInterface, Sequelize) {
         await queryInterface.bulkInsert('profiles',
@@ -56,12 +56,6 @@ module.exports = {
                 },
 
             ], {})
-
-
-
-        
-
-
 
 
     },
